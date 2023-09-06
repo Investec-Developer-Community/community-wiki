@@ -22,8 +22,8 @@
 ## ⚒ Get Building
 
 * [Community Libraries & Tools](get-building/community-libraries-and-tools.md)
-* [Community GitHub](https://github.com/programmable-banking-community)
-* [Open-Source Projects](https://gitlab.com/offerzen-community/investec-programmable-banking/command-center#open-source-projects)
+* [Community GitHub](https://github.com/Investec-Developer-Community)
+* [Open-Source Projects](https://github.com/Investec-Developer-Community/Community-Projects)
 * [Build Tutorials & Templates](get-building/build-something-simple/README.md)
   * [💳 Card | Slack Intergration](get-building/build-something-simple/card-or-slack-intergration.md)
   * [🚗 Card | How to create a DIY petrol card](get-building/build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
@@ -53,7 +53,6 @@
 * [Get Involved](community/get-involved.md)
 * [Community Manifesto](community/community-manifesto.md)
 * [Blog posts](community/blog-posts.md)
-* [Developer Finance Guide](https://www.developersfinance.guide/)
 * [Community Integration Pros](community/community-integration-pros.md)
 * [🔄 Transition Update](community/transition-update/README.md)
   * [Quick Slack Guide](community/transition-update/quick-slack-guide.md)
