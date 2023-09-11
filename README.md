@@ -27,6 +27,10 @@ The [**Programmable Banking Community**](https://developer.investec.com/za/commu
 
 If you have a passion for technology and want to build on the banking experience, this is the place for you.
 
+#### **The Investec Developer Community Provides you with the following features:**
+
+<table data-view="cards"><thead><tr><th align="center"></th><th></th></tr></thead><tbody><tr><td align="center"><strong>BANKING</strong> <br><strong>INTEGRATION APIs</strong></td><td>Access your account data and transactional capability using Direct APIs and low-code solutions.</td></tr><tr><td align="center"><strong>PROGRAMMABLE</strong> <br><strong>CARD ACCOUNTS</strong></td><td>Deploy JavaScript code to enable rules on your card, limit spend and track expenses.</td></tr><tr><td align="center"><strong>PROGRAMMABLE BANKING COMMUNITY</strong></td><td>Share ideas and co-create innovative solutions with other clients and developers across industries.</td></tr></tbody></table>
+
 {% hint style="info" %}
 **Join the Programmable Banking Community by signing up** [**here**](https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com) ✍️
 {% endhint %}
