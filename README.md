@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# Programmable Banking Community
+# Investec Developer Community
 
 ## :raised\_hands: **Welcome to the** [**Programmable Banking**](https://www.investec.com/en\_za/banking/tech-professionals/programmable-banking.html) **Community Wiki**
 
@@ -45,7 +45,7 @@ If you have a passion for technology and want to build on the banking experience
 
 ## :raised\_hands: Community
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join the community.jpg">Join the community.jpg</a></td><td><a href="https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com">https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join a Monthly Meetup.jpg">Join a Monthly Meetup.jpg</a></td><td><a href="https://lu.ma/pb-community">https://lu.ma/pb-community</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Book a welcome call.jpg">Book a welcome call.jpg</a></td><td><a href="https://calendly.com/nick-offerzen/community-welcome-chat?month=2023-03">https://calendly.com/nick-offerzen/community-welcome-chat?month=2023-03</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join the community.jpg">Join the community.jpg</a></td><td><a href="https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com">https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join a Monthly Meetup.jpg">Join a Monthly Meetup.jpg</a></td><td><a href="https://lu.ma/pb-community">https://lu.ma/pb-community</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Book a welcome call.jpg">Book a welcome call.jpg</a></td><td><a href="https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/">https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/</a></td></tr></tbody></table>
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 

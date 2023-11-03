@@ -8,7 +8,7 @@ description: Everything you need to know about participating in community
 
 * [ ] Join the community by signing up [**here**](https://jf18emj1p49.typeform.com/to/RXy7DHSD) :writing\_hand:
 * [ ] Once you've filled in the form, we'll send you an invitation to join the [**Slack Community**](https://investec-dev-com.slack.com/archives/C05M7DZD0B1)
-* [ ] Book a welcome call with our Community Lead, Nick Benson, [**here**](https://calendly.com/nick-offerzen/community-welcome-chat?month=2023-06) :telephone:
+* [ ] Book a welcome call with our Community Lead, Nick Benson, [**here**](https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/) :telephone:
 
 ## How do I participate in the community?
 
