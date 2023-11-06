@@ -54,12 +54,12 @@
 * [Community Manifesto](community/community-manifesto.md)
 * [Blog posts](community/blog-posts.md)
 * [Community Integration Pros](community/community-integration-pros.md)
-* [🔄 Transition Update](community/transition-update/README.md)
+* [🔄 \[COMPLETED\] Transition Update](community/transition-update/README.md)
   * [Quick Slack Guide](community/transition-update/quick-slack-guide.md)
   * [The Transition FAQ](community/transition-update/the-transition-faq.md)
 
 ## 💬 Feedback and Support
 
 * [Community FAQs](feedback-and-support/community-faqs.md)
-* [Feature Requests](https://programmable-banking-community.canny.io)
-* [Submit Product Issues](https://gitlab.com/offerzen-community/investec-programmable-banking/issues-and-ideas)
+* [Feature Requests](https://github.com/orgs/Investec-Developer-Community/discussions)
+* [Submit Product Issues](https://github.com/orgs/Investec-Developer-Community/discussions)
