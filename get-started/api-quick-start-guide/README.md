@@ -13,8 +13,8 @@ There is a community-contributed [**Postman Collection**](https://www.postman.co
 **Pro-Tip:** The Postman collection includes both the 🏦 Private Banking and 🧰 Corporate Investment Banking (CIB) APIs.
 {% endhint %}
 
-If you need any assistance, you are always welcome to reach out to the [Slack community](https://offerzen-community.slack.com/archives/C04KFQA3YCQ).
+If you need any assistance, you are always welcome to reach out to the [Slack community](https://investec-dev-com.slack.com/archives/C05M7DZD0B1).
 
 {% hint style="info" %}
-**Share a screenshot of your 200 with us** [**on Slack**](https://offerzen-community.slack.com/archives/C04KFQA3YCQ) **when you’re up and running!**
+**Share a screenshot of your 200 with us** **on** [**Slack**](https://investec-dev-com.slack.com/archives/C05MFMYUPE2) **when you’re up and running!**
 {% endhint %}
