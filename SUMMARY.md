@@ -63,4 +63,4 @@
 
 * [Community FAQs](feedback-and-support/community-faqs.md)
 * [Feature Requests](https://github.com/orgs/Investec-Developer-Community/discussions)
-* [Submit Product Issues](https://github.com/orgs/Investec-Developer-Community/discussions)
+* [Submit Product Issues](https://github.com/Investec-Developer-Community/.github/issues)

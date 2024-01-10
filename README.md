@@ -17,7 +17,7 @@ layout:
     visible: true
 ---
 
-# Investec Developer Community
+# Programmable Banking Community
 
 ## :raised\_hands: **Welcome to the** [**Programmable Banking**](https://www.investec.com/en\_za/banking/tech-professionals/programmable-banking.html) **Community Wiki**
 
@@ -41,12 +41,12 @@ If you have a passion for technology and want to build on the banking experience
 
 ## :speech\_balloon: Feedback & Support
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Submist a Product Issue (3).jpg">Submist a Product Issue (3).jpg</a></td><td><a href="https://gitlab.com/offerzen-community/investec-programmable-banking/issues-and-ideas">https://gitlab.com/offerzen-community/investec-programmable-banking/issues-and-ideas</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Log a Feature Request (2).jpg">Log a Feature Request (2).jpg</a></td><td><a href="https://programmable-banking-community.canny.io/">https://programmable-banking-community.canny.io/</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Check out our FAQs (1).jpg">Check out our FAQs (1).jpg</a></td><td><a href="feedback-and-support/community-faqs.md">community-faqs.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Submist a Product Issue (3).jpg">Submist a Product Issue (3).jpg</a></td><td><a href="https://github.com/Investec-Developer-Community/.github/issues">https://github.com/Investec-Developer-Community/.github/issues</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Log a Feature Request (2).jpg">Log a Feature Request (2).jpg</a></td><td><a href="https://github.com/orgs/Investec-Developer-Community/discussions">https://github.com/orgs/Investec-Developer-Community/discussions</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Check out our FAQs (1).jpg">Check out our FAQs (1).jpg</a></td><td><a href="feedback-and-support/community-faqs.md">community-faqs.md</a></td></tr></tbody></table>
 
 ## :raised\_hands: Community
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join the community.jpg">Join the community.jpg</a></td><td><a href="https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com">https://8malmkzgvs8.typeform.com/to/VlKgTtaV?typeform-source=app.gitbook.com</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join a Monthly Meetup.jpg">Join a Monthly Meetup.jpg</a></td><td><a href="https://lu.ma/pb-community">https://lu.ma/pb-community</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Book a welcome call.jpg">Book a welcome call.jpg</a></td><td><a href="https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/">https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden></th><th data-hidden></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join the community.jpg">Join the community.jpg</a></td><td><a href="https://jf18emj1p49.typeform.com/to/RXy7DHSD">https://jf18emj1p49.typeform.com/to/RXy7DHSD</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Join a Monthly Meetup.jpg">Join a Monthly Meetup.jpg</a></td><td><a href="https://lu.ma/pb-community">https://lu.ma/pb-community</a></td></tr><tr><td></td><td></td><td></td><td><a href=".gitbook/assets/Book a welcome call.jpg">Book a welcome call.jpg</a></td><td><a href="https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/">https://outlook.office365.com/owa/calendar/CommunityWelcomeCalls@investeceu.onmicrosoft.com/bookings/</a></td></tr></tbody></table>
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-✨ Programmable Banking Community Wiki _— 2023 Made by Badass unicorns_ 🦄
+✨ Programmable Banking Community Wiki _— 2024 Made by Badass unicorns_ 🦄
