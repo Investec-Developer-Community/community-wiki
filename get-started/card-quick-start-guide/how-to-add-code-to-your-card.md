@@ -5,12 +5,10 @@
 There are three main functions that can be used to execute custom functionality on your card:
 
 * **beforeTransaction** - Every time you initiate a transaction from your Investec card, the beforeTransaction method intercepts the authorization object before it is approved by Investec. This gives you the ability to apply logic to either decline or approve the transaction based on data from the card authorization itself. This function needs to return a true or false value in order for it to work. Time is limited for this function so use minimal code.
-* **afterTransaction** - This function will execute after every transaction that has been processed by the card and it runs after the `before_transaction` function.&#x20;
+* **afterTransaction** - This function will execute after every transaction that has been processed by the card and it runs after the `before_transaction` function.
 * **afterDecline** - This function will execute if a transaction has been declined on the card.
 
 Once you have enabled your card for Programmable Banking, select the desired card by clicking on the image of the card and you will be presented with the following online editor.
-
-![](https://lh4.googleusercontent.com/wII4bQlHtKCDVkHrZQ1bPP2ReIkGNeISpTbixeaGTghp9Uxc04fEtOa1bgi5IKE5kR\_Elytz6TtDomNfkZ3EoKmYoybrzANFjfWvBJsXdIg6EuWkV0zgLTfxPQu\_P\_9S1qPJZDyMv7zS-ytQk8RuUOY)
 
 {% hint style="info" %}
 **Pro-Tip:** The IDE can be slow to load and you might need to refresh the page.
