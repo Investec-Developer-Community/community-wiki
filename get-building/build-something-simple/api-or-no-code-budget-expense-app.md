@@ -5,10 +5,10 @@
 This tutorial will show you how to set up the framework for a no-code/ low-code mobile budget expense app that can leverage your Investec’s Programmable Banking transactions with [Google Sheets](https://www.google.com/sheets/about/) and [Glide](https://www.glideapps.com/).
 
 {% hint style="info" %}
-**The idea of doing it as a no-code/low-code challenge in 90 mins is not to get all fancy and technical.** But to realise that **creating something with real-world implications is fun** - who knows - it might spark a cool idea for later! _**It’s just for funsies**_.&#x20;
+**The idea of doing it as a no-code/low-code challenge in 90 mins is not to get all fancy and technical.** But to realise that **creating something with real-world implications is fun** - who knows - it might spark a cool idea for later! _**It’s just for funsies**_.
 
 \
-**Share your progress/ final build** [**in Slack**](https://offerzen-community.slack.com/archives/C047HMLESSE) **- we would love to see how you’ve built on this further!** 🤩&#x20;
+**Share your progress/ final** [**build** **in Slack**](https://investec-dev-com.slack.com/archives/C05MFMYUPE2) **- we would love to see how you’ve built on this further!** 🤩
 {% endhint %}
 
 ### By the end of this build tutorial, you should be able to:
@@ -40,8 +40,7 @@ This tutorial will show you how to set up the framework for a no-code/ low-code 
 
 ## 🌮 The super short version:
 
-> **To create a mobile budget expense application using Google Sheets and Glide, follow these steps:**\
->
+> **To create a mobile budget expense application using Google Sheets and Glide, follow these steps:**\\
 >
 > 1. First, create a [Google Sheet](https://www.google.com/sheets/about/) to be the backend data storage for your budget expense app. In the sheet, create columns for the different types of expenses that you want to track, such as groceries, transportation, and entertainment.
 > 2. Next, create a Glide account and sign in to the [Glide website](https://www.glideapps.com).
@@ -49,10 +48,9 @@ This tutorial will show you how to set up the framework for a no-code/ low-code 
 > 4. In the "Create an App" dialogue box, choose the "_Import a Google Sheet_" option and select the budget expense sheet you created in step 1.
 > 5. Glide will automatically generate an app based on the data in your Google Sheets. You can customise the app by clicking on the different elements in the app preview and using the options in the right-side panel to change their appearance and behaviour.
 > 6. Once satisfied with the app, click the "Publish" button to publish it.
-> 7. Glide will generate a URL for your app that you can use to access it from any device. You can also download the Glide app from the App Store or Google Play and use it to access your app on your mobile device.\
+> 7. Glide will generate a URL for your app that you can use to access it from any device. You can also download the Glide app from the App Store or Google Play and use it to access your app on your mobile device.\\
 >
->
-> **Share your awesome build with the community in** [**#02\_make-it-happen**](https://offerzen-community.slack.com/archives/C047HMLESSE)**.** :sparkles:
+> **Share your awesome build with the community in** [**#02\_buildspace**](https://investec-dev-com.slack.com/archives/C05MFMYUPE2)**.** :sparkles:
 
 ## 🌈 The long version:
 
@@ -64,8 +62,8 @@ Plan out what screens you want to see and how your data would be structured.
 
 ### Step 2: Grab your gear
 
-* Go to the [Build Something Simple](./) section in the community wiki&#x20;
-* Copy that Google Sheet for Treasury Management&#x20;
+* Go to the [Build Something Simple](./) section in the community wiki
+* Copy that Google Sheet for Treasury Management
 * **Have a poke around the template. It’s a cool piece of work!**
 
 {% hint style="success" %}
@@ -82,14 +80,14 @@ Plan out what screens you want to see and how your data would be structured.
 <figure><img src="../../.gitbook/assets/Screenshot 2022-12-15 at 10.15.45.png" alt=""><figcaption><p>🗂️ Create your sheets for Categories and Items</p></figcaption></figure>
 
 * Let’s start putting in some data to work with _**App Cat**_.
-  * Start with the categories you want to capture&#x20;
+  * Start with the categories you want to capture
   * Maybe a cool emoji for easier reference?
-  * And a budget limit for that category&#x20;
+  * And a budget limit for that category
   * We can add pretty pictures later.
-* In _**App Items**_, we can populate it with some dummy data for now.&#x20;
-  * Name&#x20;
-  * Cost&#x20;
-  * Category & Icon (:bulb:**Pro Tip**: _We can copy\&paste from the category sheet_)&#x20;
+* In _**App Items**_, we can populate it with some dummy data for now.
+  * Name
+  * Cost
+  * Category & Icon (:bulb:**Pro Tip**: _We can copy\&paste from the category sheet_)
 
 ### Step 4: Making the data work
 
@@ -98,12 +96,12 @@ Plan out what screens you want to see and how your data would be structured.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-12-15 at 10.46.31.png" alt=""><figcaption><p><span data-gb-custom-inline data-tag="emoji" data-code="1f44d">👍</span> Give your new app a name and select <em><strong>Glide App.</strong></em></p></figcaption></figure>
 
-* Connect to your Googe Sheets app&#x20;
-  * It’s going to pull in all your sheets from the Workbook&#x20;
-  * We only need our _**App Ca**_t and _**App Items**_ sheets for now.
+* Connect to your Googe Sheets app
+  * It’s going to pull in all your sheets from the Workbook
+  * We only need our \_**App Ca**\_t and _**App Items**_ sheets for now.
 
 {% hint style="info" %}
-You can follow 📽️ t[his video to see how to add all the fancy reference tables](https://www.loom.com/share/b1c73f42d5b041d599daa9a265f0eaf6?t=317) and maths you’ll need to fully bring your app to life!
+You can follow 📽️ t[his video to see how to add all the fancy reference tables](https://www.loom.com/share/b1c73f42d5b041d599daa9a265f0eaf6?t=317) and maths you’ll need to bring your app to life fully!
 {% endhint %}
 
 * We need a :projector: [smart overview screen with more maths](https://www.loom.com/share/b1c73f42d5b041d599daa9a265f0eaf6?t=1017) to bring everything together. :stadium:
@@ -111,7 +109,7 @@ You can follow 📽️ t[his video to see how to add all the fancy reference tab
 ### Step 5: Making it pretty
 
 * Awesome! Now that we have all our data the way we want it 📽️ [let’s start making the screens](https://www.loom.com/share/b1c73f42d5b041d599daa9a265f0eaf6?t=1369).
-  * Remove all the current sections there, and we’ll start to create our own.&#x20;
+  * Remove all the current sections there, and we’ll start to create our own.
 * We planned on creating a couple of basic pages to start;
 
 <!---->
@@ -136,12 +134,12 @@ You can follow 📽️ t[his video to see how to add all the fancy reference tab
 ### Step 6: The journey continues
 
 * You’ve created a really cool base with Google Sheets & Glide. :raised\_hands:
-* **Drop a screenshot/ link in #**[**02\_make-it-happen**](https://offerzen-community.slack.com/archives/C047HMLESSE)**. We would love to see it! How far can you take this?**
+* **Drop a screenshot/ link in** [**#02\_buildspace**](https://investec-dev-com.slack.com/archives/C05MFMYUPE2)**. We would love to see it! How far can you take this?**
 
 {% hint style="info" %}
 :sparkles: **There are a million and one more things you can do next.** :sparkles:
 
 * Live data sync with your own Investec account via the Google sheet
 * Trigger transfer between accounts when budget limits are exceeded or below expected.
-* Use GPT-3/ other AI models to hyper-categorise your transactions.&#x20;
+* Use GPT-3/ other AI models to hyper-categorise your transactions.
 {% endhint %}
