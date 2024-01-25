@@ -9,7 +9,7 @@ This tutorial is meant to help you achieve **2 things as quickly as possible** s
 
 ## The challenge
 
-### Step 1: Join [`#rooty`](https://offerzen-community.slack.com/archives/CTZMZM2H1) on OfferZen Community Slack
+### Step 1: Join [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN) on OfferZen Community Slack
 
 ### Step 2: Open Investec Programmable Banking
 
@@ -59,4 +59,4 @@ Now replace all the code in your `env.json` file [with this code](https://gitlab
 
 ### <mark style="color:red;">**NB**</mark> Step 8: Delete/edit your code
 
-This code is now live on your card. Please make sure you clear it out or delete it to ensure that your live transactions aren't posted into `#rooty`
+This code is now live on your card. Please make sure you clear it out or delete it to ensure that your live transactions aren't posted into [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN)
