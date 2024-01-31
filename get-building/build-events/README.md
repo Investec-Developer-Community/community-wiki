@@ -6,7 +6,7 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 
 ### Current Build Challenges
 
-* [Bounties Playground](open-bounties-playground-or-banking.make.dev.md) | banking.make.dev - Banking API tools
+* Watch this space
 
 ### Passed Hackathon & Build Events submissions
 
@@ -18,5 +18,6 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 * [EskomSePush submissions](closed-eskomsepush-build-challenge/eskomsepush-build-challenge-submissions.md) | API Build Challenge ⚡
 * [Q1 2023 Bounty Sprint Challenges](closed-q1-2023-bounty-challenge.md) | Three themed challenges over two weekends each.
 * [Q2 2023 Community Bounty Challenges](open-q2-2023-bounty-challenge/)
+* [Bounties Playground](open-bounties-playground-or-banking.make.dev.md) | banking.make.dev - Banking API tools
 
 ###
