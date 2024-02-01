@@ -6,7 +6,7 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 
 ### Current Build Challenges
 
-* Watch this space
+* [Q1 2024 Bounty Challenge](open-q1-2024-bounty-challenge-or-the-tutorial-quest.md) | The Tutorial Quest
 
 ### Passed Hackathon & Build Events submissions
 
