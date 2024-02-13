@@ -28,7 +28,7 @@ Our community champs enable and support others to grow and learn and are integra
 
 Check out a few things we give to awesome community members who live [**our core principles and values**](community-manifesto.md#core-principles-and-values)**.** 👇
 
-![A glimpse of the current Programmable Banking community swag.... with more to come.](<../.gitbook/assets/swag pics.png>)
+![A glimpse of the current Programmable Banking community swag.... with more to come.](<../.gitbook/assets/Screenshot 2024-01-31 at 11.54.33.png>)
 
 ## the How to think about co-creation in the community
 
