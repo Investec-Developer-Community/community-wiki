@@ -2,9 +2,13 @@
 description: Forge Your Path, Share Your Craft – Join The Tutorial Quest!
 ---
 
-# 🍕 \[OPEN] Q1 2024 Bounty Challenge | The Tutorial Quest
+# 🍕 \[CLOSED] Q1 2024 Bounty Challenge | The Tutorial Quest
 
 Ready to dive into a new adventure? 🚀 We're thrilled to roll out the latest community bounty challenge featuring Programmable Banking APIs and Cards!
+
+{% hint style="success" %}
+Check out an awesome submission by [Peter Smythe](https://github.com/petersmythe), on [implementing dual authorisation on your credit cards](https://petersmythe.github.io/invapi-dual-auth/) 💳.
+{% endhint %}
 
 ## Challenge Overview:
 

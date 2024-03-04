@@ -4,7 +4,7 @@
 
 * [Programmable Banking Community](README.md)
 
-## ⚒ Get Started
+## ⚒️ Get Started
 
 * [Investec Developer Docs](https://developer.investec.com/za/api-products)
 * [Self-Enrollment Guide](get-started/self-enrollment-guide.md)
@@ -20,7 +20,7 @@
   * [💳 How to use the Cards API](get-started/card-quick-start-guide/how-to-use-the-cards-api.md)
 * [Sample Apps](get-started/sample-apps.md)
 
-## ⚒ Get Building
+## ⚒️ Get Building
 
 * [Community Libraries & Tools](get-building/community-libraries-and-tools.md)
 * [Community GitHub](https://github.com/Investec-Developer-Community)
@@ -36,19 +36,19 @@
   * [VATIT](get-building/use-cases/vatit.md)
   * [Beneke Gantley Inc.](get-building/use-cases/beneke-gantley-inc..md)
 * [Build Challenges](get-building/build-events/README.md)
-  * [🍕 \[OPEN\] Q1 2024 Bounty Challenge | The Tutorial Quest](get-building/build-events/open-q1-2024-bounty-challenge-or-the-tutorial-quest.md)
+  * [🍕 \[CLOSED\] Q1 2024 Bounty Challenge | The Tutorial Quest](get-building/build-events/closed-q1-2024-bounty-challenge-or-the-tutorial-quest.md)
   * [💳 \[CLOSED\] Q2 2023 Bounty Challenge](get-building/build-events/open-q2-2023-bounty-challenge/README.md)
-    * [🗺 Checklist for Bounty Hunters 🏆](get-building/build-events/open-q2-2023-bounty-challenge/checklist-for-bounty-hunters.md)
+    * [🗺️ Checklist for Bounty Hunters 🏆](get-building/build-events/open-q2-2023-bounty-challenge/checklist-for-bounty-hunters.md)
     * [🚀 Bounty Challenge #2: Code Snippet Showdown 🚀](get-building/build-events/open-q2-2023-bounty-challenge/bounty-challenge-2-code-snippet-showdown.md)
   * [💰 \[CLOSED\] Bounties Playground | banking.make.dev](get-building/build-events/open-bounties-playground-or-banking.make.dev.md)
-  * [🏔 \[CLOSED\] Q1 2023 Bounty Challenge](get-building/build-events/closed-q1-2023-bounty-challenge.md)
-  * [👩💻 👩💻 \[CLOSED\] Mindjoy | Kid at Heart Build Challenge](get-building/build-events/closed-mindjoy-or-kid-at-heart-build-challenge.md)
+  * [🏔️ \[CLOSED\] Q1 2023 Bounty Challenge](get-building/build-events/closed-q1-2023-bounty-challenge.md)
+  * [👩‍💻 👩💻 \[CLOSED\] Mindjoy | Kid at Heart Build Challenge](get-building/build-events/closed-mindjoy-or-kid-at-heart-build-challenge.md)
   * [⚡ \[CLOSED\] EskomSePush Build Challenge](get-building/build-events/closed-eskomsepush-build-challenge/README.md)
     * [EskomSePush Build Challenge Submissions](get-building/build-events/closed-eskomsepush-build-challenge/eskomsepush-build-challenge-submissions.md)
   * [💳 \[CLOSED\] 2022 Hackathon | low-code/no-code](get-building/build-events/q2-2022-hackathon-or-low-code-no-code/README.md)
     * [2022 Hackathon | low-code/no-code | Submissions](get-building/build-events/q2-2022-hackathon-or-low-code-no-code/2022-hackathon-or-low-code-no-code-or-submissions.md)
   * [💰 \[CLOSED\] Spreadsheet Banking | Bounties](get-building/build-events/closed-spreadsheet-banking-or-bounties/README.md)
-    * [👩💻 👩💻 Spreadsheet Banking | Basic Functions](get-building/build-events/closed-spreadsheet-banking-or-bounties/spreadsheet-banking-or-basic-functions.md)
+    * [👩‍💻 👩💻 Spreadsheet Banking | Basic Functions](get-building/build-events/closed-spreadsheet-banking-or-bounties/spreadsheet-banking-or-basic-functions.md)
 
 ## 🙌 Community
 
