@@ -1,4 +1,8 @@
-# Community Support for Programmable Banking
+---
+description: Community support framework for Programmable Banking API and card accounts.
+---
+
+# Get Support
 
 Hey there! 😊
 
