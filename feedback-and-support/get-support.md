@@ -10,7 +10,7 @@ We're all about giving our community the superpowers they need to get creative a
 
 ## Getting the Support You Need
 
-### Step 1: Reach Out on Slack
+### Level 1: Reach Out on Slack
 
 For <mark style="background-color:yellow;">immediate assistance</mark> and to engage with fellow community champions and Investec developers, head over to our Slack channel:
 
@@ -18,7 +18,7 @@ For <mark style="background-color:yellow;">immediate assistance</mark> and to en
 
 Here, you can ask questions, share insights, or find out if there's an existing workaround for your issue.
 
-### Step 2: Feature Requests & General Discussions
+### Level 2: Feature Requests & General Discussions
 
 If you have a <mark style="background-color:yellow;">feature request</mark> or want to start a general discussion about the Programmable Banking API and Card, please use our GitHub discussions section:
 
@@ -26,7 +26,7 @@ If you have a <mark style="background-color:yellow;">feature request</mark> or w
 
 This is the perfect place to share ideas and collaborate on potential enhancements.
 
-### Step 3: Reporting Technical Issues
+### Level 3: Reporting Technical Issues
 
 For <mark style="background-color:yellow;">technical issues that require attention</mark>, you have two options:
 
