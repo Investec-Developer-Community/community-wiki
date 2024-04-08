@@ -53,6 +53,7 @@
 ## 🙌 Community
 
 * [Get Involved](community/get-involved.md)
+* [Community Champions](community/community-champions.md)
 * [Community Manifesto](community/community-manifesto.md)
 * [Blog posts](community/blog-posts.md)
 * [Community Integration Pros](community/community-integration-pros.md)
