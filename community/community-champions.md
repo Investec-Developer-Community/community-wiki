@@ -7,10 +7,6 @@
 as a few rewards for being a part of this programme are tied to that 😉.
 {% endhint %}
 
-{% embed url="https://docs.google.com/presentation/d/1Rp1l4LuhKBC-ij4RQJTFpo62DB1-C4XUa6wcC2kDd_Y/edit?usp=sharing" %}
-The Champions Programme Pitch Deck
-{% endembed %}
-
 ## How to Get Involved
 
 * **Eligibility**: Open to all with an Investec account and Programmable Banking activated.
@@ -29,7 +25,7 @@ The Champions Programme Pitch Deck
 
 ## Rewards
 
-* **Bank Fee Rewards**: Top five (5) active Champs earn back 3 months' worth of Investec bank fees in Reward points every quarter.
+* **Bank Fee Rewards**: Top five (5) active Champs earn back 3 months' worth of Investec bank fees in Reward points every new quarter.
 * **Exclusive Perks**: First pick of swag, speaker slots, and more.
 
 <figure><img src="../.gitbook/assets/Investec Developer Champs 2024 v1_5 (2).png" alt=""><figcaption></figcaption></figure>
@@ -39,11 +35,11 @@ The Champions Programme Pitch Deck
 * **Non-Champs**: Highly engaged community members receive alternative rewards like special swag and other perks for living the community values and getting involved as non-champions.
 * **Champion but non-Investec account holders**: Still enjoy perks like swag and opportunities for visibility, but do not meet the requirements for Investec reward.
 
-## Feedback
+***
 
-* We value your input on rewards! Let us know what perks would make your experience even better.
+<figure><img src="../.gitbook/assets/Investec Developer Champs 2024 v1_5 (5).png" alt=""><figcaption><p>The Champions Roadmap</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Investec Developer Champs 2024 v1_5 (5).png" alt=""><figcaption></figcaption></figure>
+***
 
 ## Terms & Conditions
 
@@ -54,12 +50,20 @@ The Champions Programme Pitch Deck
 
 ## FAQs
 
-**Q: How do I know if I'm among the top five active Champs?** A: We track engagement and contributions, and the top five will be notified at the start of each new quarter.
+**Q: How do I know if I'm among the top five active Champs?**&#x20;
 
-**Q: What if I don't have an Investec account?** A: You can still participate and receive other rewards. We appreciate every contribution!
+A: We track engagement and contributions, and the top five will be notified at the start of each new quarter.
 
-**Q: Can I suggest a reward or perk?** A: Absolutely! We love hearing your ideas. Drop us a message or discuss it here.
+**Q: What if I don't have an Investec account?**&#x20;
 
-**Q: What happens if I can't contribute for one month?** A: Life happens! Contact us, and we'll work with you to maintain your Champion status.
+A: You can still participate and receive other rewards. We appreciate every contribution!
+
+**Q: Can I suggest a reward or perk?**&#x20;
+
+A: Absolutely! We love hearing your ideas. Drop us a message or discuss it here.
+
+**Q: What happens if I can't contribute for a month/quarter?**&#x20;
+
+A: Life happens! Contact us, and we'll work with you to maintain your Champion status.
 
 \
