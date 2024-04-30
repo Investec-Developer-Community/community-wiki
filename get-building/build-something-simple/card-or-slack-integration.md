@@ -1,4 +1,4 @@
-# 💳 Card | Slack Intergration
+# 💳 Card | Slack Integration
 
 ## Purpose of this tutorial
 
