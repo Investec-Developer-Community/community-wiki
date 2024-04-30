@@ -49,7 +49,7 @@
     * [2022 Hackathon | low-code/no-code | Submissions](get-building/build-events/q2-2022-hackathon-or-low-code-no-code/2022-hackathon-or-low-code-no-code-or-submissions.md)
   * [💰 \[CLOSED\] Spreadsheet Banking | Bounties](get-building/build-events/closed-spreadsheet-banking-or-bounties/README.md)
     * [👩‍💻 👩💻 Spreadsheet Banking | Basic Functions](get-building/build-events/closed-spreadsheet-banking-or-bounties/spreadsheet-banking-or-basic-functions.md)
-* [🍕 \[CLOSED\] Q1 2024 Bounty Challenge | The Tutorial Quest](get-building/closed-q1-2024-bounty-challenge-or-the-tutorial-quest.md)
+  * [🍕 \[CLOSED\] Q1 2024 Bounty Challenge | The Tutorial Quest](get-building/build-events/closed-q1-2024-bounty-challenge-or-the-tutorial-quest.md)
 
 ## 🙌 Community
 

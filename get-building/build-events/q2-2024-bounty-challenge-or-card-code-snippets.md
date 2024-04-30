@@ -6,7 +6,10 @@ description: Code, Contribute, and Win with Investec's Q2 2024 Card Snippet Chal
 
 Get ready to flex your coding muscles once again! We're thrilled to announce the <mark style="background-color:yellow;">Q2 2024 Bounty Challenge</mark>, inviting developers to <mark style="background-color:yellow;">create innovative card code snippets that could be featured on the Low-code screens of the Investec banking portal</mark>.&#x20;
 
-This is your chance to contribute to the community, showcase your skills, and earn some cool Investec Developer swag!
+{% hint style="info" %}
+This is your chance to contribute to the community, showcase your skills, \
+and earn some cool Investec Developer swag!
+{% endhint %}
 
 ## What's the Challenge?
 
