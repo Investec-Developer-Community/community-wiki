@@ -1,10 +1,10 @@
-# 💳 Card | Slack Intergration
+# 💳 Card | Slack Integration
 
 ## Purpose of this tutorial
 
 This tutorial is meant to help you achieve **2 things as quickly as possible** so that you can grasp the absolute basics of Investec’s Programmable Banking feature:
 
-1. Join OfferZen Community [Slack](https://offerzen-community.slack.com/archives/CUBJ511K8) so that you can send a message to an external system
+1. Join OfferZen Community [Slack](https://investec-dev-com.slack.com/archives/C065W2RTUFN) so that you can send a message to an external system
 2. Send a message to Slack from Investec Programmable Banking when you simulate a transaction to get a feel for how it works
 
 ## The challenge
@@ -41,9 +41,9 @@ Replace all the code in your `main.js` file in the editor [with this code](https
 
 ### Step 5: Setup your `env.json` file and add your Slack ID
 
-Get your Slack ID from OfferZen Community Slack:
+Get your Slack ID from the Investec Developer Community Slack:
 
-![](../../.gitbook/assets/Slack\_\_ID\_Get.gif)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-04-30 at 13.59.12.png" alt="" width="337"><figcaption></figcaption></figure>
 
 Now replace all the code in your `env.json` file [with this code](https://gitlab.com/offerzen-community/investec-programmable-banking/programmable-card-starter-challenge/-/raw/master/env.json) in the editor, and replace `YOUR_SLACK_ID_HERE` with **your actual Slack ID**. Deploy your code to card when you're done:
 
@@ -55,8 +55,8 @@ Now replace all the code in your `env.json` file [with this code](https://gitlab
 
 ### Step 7: Celebrate when you see your notification on OfferZen Community Slack \o/
 
-![](<../../.gitbook/assets/Screenshot 2022-04-08 at 09.43.37.png>)
+![Example feed :)](<../../.gitbook/assets/Screenshot 2022-04-08 at 09.43.37.png>)
 
 ### <mark style="color:red;">**NB**</mark> Step 8: Delete/edit your code
 
-This code is now live on your card. Please make sure you clear it out or delete it to ensure that your live transactions aren't posted into [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN)
+This code is now live on your card. Please make sure you clear it out or delete it to ensure that your live transactions aren't posted into [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN)`.`
