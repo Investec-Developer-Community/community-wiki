@@ -26,7 +26,7 @@
 * [Community GitHub](https://github.com/Investec-Developer-Community)
 * [Open-Source Projects](https://github.com/Investec-Developer-Community/Community-Projects)
 * [Build Tutorials & Templates](get-building/build-something-simple/README.md)
-  * [💳 Card | Slack Integration](get-building/build-something-simple/card-or-slack-intergration.md)
+  * [💳 Card | Slack Integration](get-building/build-something-simple/card-or-slack-integration.md)
   * [🚗 Card | How to create a DIY petrol card](get-building/build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
   * [🎯 API | No-code Budget Expense App](get-building/build-something-simple/api-or-no-code-budget-expense-app.md)
 * [Use Cases](get-building/use-cases/README.md)

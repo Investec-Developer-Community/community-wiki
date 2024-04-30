@@ -18,7 +18,7 @@ and earn some cool Investec Developer swag!
 **Objective:** Craft and share a code snippet that demonstrates the potential and use of Programmable Banking card integration.
 
 {% hint style="info" %}
-**Inspo**: [Card | Slack Integration](../build-something-simple/card-or-slack-intergration.md) or [Card | How to create a DIY petrol card](../build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
+**Inspo**: [Card | Slack Integration](../build-something-simple/card-or-slack-integration.md) or [Card | How to create a DIY petrol card](../build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
 {% endhint %}
 
 #### **Considerations:**
