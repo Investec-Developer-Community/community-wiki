@@ -55,10 +55,11 @@
 
 * [Get Involved](community/get-involved.md)
 * [Community Champions](community/community-champions.md)
+* [Community Events](https://lu.ma/calendar/cal-JmTm7ODyxvv8Ge2)
 * [Community Manifesto](community/community-manifesto.md)
 * [Blog posts](community/blog-posts.md)
 * [Community Integration Pros](community/community-integration-pros.md)
-* [🔄 \[COMPLETED\] Transition Update](community/transition-update/README.md)
+* [Slack Workspace Move \[COMPLETED\]](community/transition-update/README.md)
   * [Quick Slack Guide](community/transition-update/quick-slack-guide.md)
   * [The Transition FAQ](community/transition-update/the-transition-faq.md)
 

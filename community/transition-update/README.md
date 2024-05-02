@@ -1,8 +1,8 @@
 ---
-description: Big News About Our Programmable Banking Community!
+description: Big News About Our Programmable Banking Community Slack Workspace!
 ---
 
-# 🔄 Transition Update
+# Slack Workspace Move \[COMPLETED]
 
 ## TL;DR:
 
@@ -84,4 +84,4 @@ We'd love for you to share your favourite community moments in the [#02\_pb-gene
 We're tremendously excited about this move and remain committed to ensuring a smooth transition. We can't wait to embark on this new journey together. Let's keep talking and continue making our Programmable Banking Community the best it can be!
 
 \
-\
+\\
