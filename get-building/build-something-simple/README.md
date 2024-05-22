@@ -15,13 +15,17 @@ For each section, we’ll let you know:
 ✔️ Level of Complexity
 
 * **Level 1** being a breeze-through,
-* **Level 2** being one foot into the rabbit hole, and
-* **Level 3** being a complex piece you have to sit on for a while.
+* **Level 2** is one foot into the rabbit hole, and
+* **Level 3** is a complex piece you must sit on for a while.
 
 **Every selection we’ve included has been hand-picked by the community, so be assured we consider each worth inclusion.**
 
 {% hint style="success" %}
-As with all things, this resource list is a work in progress. If you see something missing, jump into[ ](https://discord.gg/gitcoin)[Slack](https://offerzen-community.slack.com/archives/CUBJ511K8) and send us a message so we can add it to our growing public library, or edit this page directly on [GitHub.](../../readme/card-tutorial/)
+As with all things, this resource list is a work in progress. If you see something missing, jump into[ ](https://discord.gg/gitcoin)[Slack](https://offerzen-community.slack.com/archives/CUBJ511K8) and send us a message so we can add it to our growing public library, or edit this page directly.
+{% endhint %}
+
+{% hint style="info" %}
+Check out more [boilerplate apps on the community GitHub](https://github.com/Investec-Developer-Community).
 {% endhint %}
 
 ### Tutorials and Templates
@@ -34,7 +38,7 @@ As with all things, this resource list is a work in progress. If you see somethi
 
 ### Deep Dive Research
 
-The concept of Programmable Banking is still relatively new. But before we can meaningfully engage in deeper conversations about the topic of Programmable Banking, it's helpful to know a little more, from how Programmable Banking is defined to its history and the rich opportunities we see to create tomorrow's banking.
+The concept of Programmable Banking is still relatively new. But before we can meaningfully engage in deeper conversations about Programmable Banking, it's helpful to know a little more, from how Programmable Banking is defined to its history and the rich opportunities we see to create tomorrow's banking.
 
 {% hint style="info" %}
 **If you are interested in diving into the topic more** - or found relevant learnings along your journey that would help others along the path - please **check out and add your contribution to the** [**Programmable Banking Starter Pack here**](https://docs.google.com/document/d/1L81Zj5H-BvaXwIVnYXJeKVHTC6TxLFlGfa9PGe4Vkbg/edit?usp=sharing)**!**
