@@ -30,8 +30,9 @@ If you have a passion for technology and want to build on the banking experience
 {% hint style="info" %}
 **Please note that our API and Programmable Banking offerings are tailored to specific regions:**
 
-* **For South African clients:** Our South African API and Programmable Banking services are exclusively available for Investec clients who have Investec accounts in South Africa. This offering is designed to cater specifically to the financial needs and regulations within South Africa.
-* **For UK clients:** Our UK API is fully compliant with PSD2 (Payment Services Directive 2) regulations, ensuring enhanced security and innovation in payment services across the European Economic Area.
+* **For South African clients:** Our South African API and Programmable Banking services are exclusively available for Investec clients who have Investec accounts in South Africa. This offering is designed to cater specifically to the financial needs and regulations within South Africa.\
+  The South African offering provides access to both API and Programmable Banking card accounts for your South African account only.
+* **For UK clients:** Our UK API, for UK Investec account holders, is fully compliant with PSD2 (Payment Services Directive 2) regulations, ensuring enhanced security and innovation in payment services across the European Economic Area. More details on the UK API can be found on the [UK Investec Developer documentation](https://developer.investec.com/uk/home) page.
 
 _If you have any questions or need further information, please feel free to reach out to us at_ [developercommunity@investec.co.za](mailto:developercommunity@investec.co.za)
 {% endhint %}
