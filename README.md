@@ -27,6 +27,15 @@ The [**Programmable Banking Community**](https://developer.investec.com/za/commu
 
 If you have a passion for technology and want to build on the banking experience, this is the place for you.
 
+{% hint style="info" %}
+**Please note that our API and Programmable Banking offerings are tailored to specific regions:**
+
+* **For South African clients:** Our South African API and Programmable Banking services are exclusively available for Investec clients who have Investec accounts in South Africa. This offering is designed to cater specifically to the financial needs and regulations within South Africa.
+* **For UK clients:** Our UK API is fully compliant with PSD2 (Payment Services Directive 2) regulations, ensuring enhanced security and innovation in payment services across the European Economic Area.
+
+_If you have any questions or need further information, please feel free to reach out to us at_ [developercommunity@investec.co.za](mailto:developercommunity@investec.co.za)
+{% endhint %}
+
 #### **The Investec Developer Community Provides you with the following features:**
 
 <table data-view="cards"><thead><tr><th align="center"></th><th></th></tr></thead><tbody><tr><td align="center"><strong>BANKING</strong><br><strong>INTEGRATION APIs</strong></td><td>Access your account data and transactional capability using Direct APIs and low-code solutions.</td></tr><tr><td align="center"><strong>PROGRAMMABLE</strong><br><strong>CARD ACCOUNTS</strong></td><td>Deploy JavaScript code to enable rules on your card, limit spend and track expenses.</td></tr><tr><td align="center"><strong>PROGRAMMABLE BANKING COMMUNITY</strong></td><td>Share ideas and co-create innovative solutions with other clients and developers across industries.</td></tr></tbody></table>
