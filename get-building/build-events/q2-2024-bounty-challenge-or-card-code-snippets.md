@@ -2,7 +2,20 @@
 description: Code, Contribute, and Win with Investec's Q2 2024 Card Snippet Challenge!
 ---
 
-# ☄️ Q2 2024 Bounty Challenge | Card Code Snippets
+# ☄️ \[CLOSED] Q2 2024 Bounty Challenge | Card Code Snippets
+
+### \[UPDATED] We had six amazing submissions. Check them out below:
+
+| Name                  | Coders                      | Description                                                                                                  | Link                                                                                                                                                                                  |
+| --------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Swipe 'n Save         | Peter Smythe                | Demo code integrating the Private Banking API (OAuth2) with the Card API.                                    | [GitHub Repository](https://github.com/petersmythe/investec-swipe-n-save), [Documentation](https://github.com/petersmythe/investec-swipe-n-save/blob/main/README.md)                  |
+| CarbonCooler          | Amery Winter & Peter Smythe | Tracks carbon footprint of fuel purchases and invests in carbon offset initiatives.                          | [GitHub Repository](https://github.com/Brodreger/CarbonCooler), [Documentation](https://github.com/Brodreger/CarbonCooler/blob/main/README.md)                                        |
+| Virtual Card Fortress | Peter Smythe                | Shifts recurring subscription payments to a separate virtual credit card with a configurable shield.         | [GitHub Repository](https://github.com/petersmythe/investec-virtual-card-fortress), [Documentation](https://github.com/petersmythe/investec-virtual-card-fortress?tab=readme-ov-file) |
+| Payment Pinger 💸     | Roberto Aldera              | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. | [GitHub Repository](https://github.com/roberto-aldera/card-payment-notifier), [Documentation](https://github.com/roberto-aldera/card-payment-notifier)                                |
+| Teleidop              | Matt van Niekerk            | Uses Investec's Programmable Card feature to send transaction notifications via Telegram.                    | [GitHub Repository](https://github.com/mattvanniekerk/teleidop/), [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md)                                     |
+| Card To Sheet Sync    | Dominic Santo               | Sends card transactions to a Google Sheets document.                                                         | [GitHub Repository](https://github.com/dominicsanto/card-to-sheet-sync), [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md)                      |
+
+***
 
 Get ready to flex your coding muscles once again! We're thrilled to announce the <mark style="background-color:yellow;">Q2 2024 Bounty Challenge</mark>, inviting developers to <mark style="background-color:yellow;">create innovative card code snippets that could be featured on the Low-code screens of the Investec banking portal</mark>.&#x20;
 

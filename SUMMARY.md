@@ -36,7 +36,7 @@
   * [VATIT](get-building/use-cases/vatit.md)
   * [Beneke Gantley Inc.](get-building/use-cases/beneke-gantley-inc..md)
 * [Build Challenges](get-building/build-events/README.md)
-  * [☄️ Q2 2024 Bounty Challenge | Card Code Snippets](get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets.md)
+  * [☄️ \[CLOSED\] Q2 2024 Bounty Challenge | Card Code Snippets](get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets.md)
   * [💳 \[CLOSED\] Q2 2023 Bounty Challenge](get-building/build-events/open-q2-2023-bounty-challenge/README.md)
     * [🗺️ Checklist for Bounty Hunters 🏆](get-building/build-events/open-q2-2023-bounty-challenge/checklist-for-bounty-hunters.md)
     * [🚀 Bounty Challenge #2: Code Snippet Showdown 🚀](get-building/build-events/open-q2-2023-bounty-challenge/bounty-challenge-2-code-snippet-showdown.md)
