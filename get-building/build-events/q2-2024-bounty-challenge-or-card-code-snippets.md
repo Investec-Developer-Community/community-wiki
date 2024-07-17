@@ -1,37 +1,27 @@
 ---
-description: Code, Contribute, and Win with Investec's Q2 2024 Card Snippet Challenge!
+description: >-
+  Build, Share, and Win with Investec's Q3 2024 Everyday API Solutions
+  Challenge!
 ---
 
-# ☄️ \[CLOSED] Q2 2024 Bounty Challenge | Card Code Snippets
+# 🚂 Q3 2024 Bounty Challenge | Everyday Solutions
 
-### \[UPDATED] We had six amazing submissions. Check them out below:
+We are excited to announce the **Q3 2024 Bounty Challenge**, inviting community devs to create practical and innovative solutions using the Investec API and/or Programmable Banking card accounts.&#x20;
 
-| Name                  | Coders                      | Description                                                                                                  | Link                                                                                                                                                                                  |
-| --------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Swipe 'n Save         | Peter Smythe                | Demo code integrating the Private Banking API (OAuth2) with the Card API.                                    | [GitHub Repository](https://github.com/petersmythe/investec-swipe-n-save), [Documentation](https://github.com/petersmythe/investec-swipe-n-save/blob/main/README.md)                  |
-| CarbonCooler          | Amery Winter & Peter Smythe | Tracks carbon footprint of fuel purchases and invests in carbon offset initiatives.                          | [GitHub Repository](https://github.com/Brodreger/CarbonCooler), [Documentation](https://github.com/Brodreger/CarbonCooler/blob/main/README.md)                                        |
-| Virtual Card Fortress | Peter Smythe                | Shifts recurring subscription payments to a separate virtual credit card with a configurable shield.         | [GitHub Repository](https://github.com/petersmythe/investec-virtual-card-fortress), [Documentation](https://github.com/petersmythe/investec-virtual-card-fortress?tab=readme-ov-file) |
-| Payment Pinger 💸     | Roberto Aldera              | Posts payment details to Telegram for card payments and includes anomaly detection for non-ZAR transactions. | [GitHub Repository](https://github.com/roberto-aldera/card-payment-notifier), [Documentation](https://github.com/roberto-aldera/card-payment-notifier)                                |
-| Teleidop              | Matt van Niekerk            | Uses Investec's Programmable Card feature to send transaction notifications via Telegram.                    | [GitHub Repository](https://github.com/mattvanniekerk/teleidop/), [Documentation](https://github.com/mattvanniekerk/teleidop/blob/main/README.md)                                     |
-| Card To Sheet Sync    | Dominic Santo               | Sends card transactions to a Google Sheets document.                                                         | [GitHub Repository](https://github.com/dominicsanto/card-to-sheet-sync), [Documentation](https://github.com/dominicsanto/card-to-sheet-sync/blob/main/README.md)                      |
-
-***
-
-Get ready to flex your coding muscles once again! We're thrilled to announce the <mark style="background-color:yellow;">Q2 2024 Bounty Challenge</mark>, inviting developers to <mark style="background-color:yellow;">create innovative card code snippets that could be featured on the Low-code screens of the Investec banking portal</mark>.&#x20;
+<mark style="background-color:yellow;">This quarter's theme is all about building something that you or a client will use every day. The simpler, the better!</mark>
 
 {% hint style="info" %}
-This is your chance to contribute to the community, showcase your skills, \
-and earn some cool Investec Developer swag!
+This is your chance to contribute to the community, showcase your skills, and earn some cool Investec Developer swag!
 {% endhint %}
 
 ## What's the Challenge?
 
-### Card Code Snippet Creation
+### Everyday API Solutions
 
-**Objective:** Craft and share a code snippet that demonstrates the potential and use of Programmable Banking card integration.
+**Objective:** Develop and share a solution that leverages the Investec API and/or Programmable Banking card accounts, that you or a client will use every day (_or nearly everyday_ 😉)
 
 {% hint style="info" %}
-**Inspo**: [Card | Slack Integration](../build-something-simple/card-or-slack-integration.md) or [Card | How to create a DIY petrol card](../build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
+**Inspo**: Think about simple yet impactful solutions like automated expense tracking, daily budget notifications, or seamless payment integrations.
 {% endhint %}
 
 #### **Considerations:**
@@ -42,15 +32,14 @@ and earn some cool Investec Developer swag!
 
 #### Challenge Details
 
-* **Start Date:** The challenge kicks off at the beginning of 1 May 2024.
-* **End Date:** Submissions must be in by 30 June 2024.
+* **Start Date:** The challenge kicks off at the beginning of 17 July 2024.
+* **End Date:** Submissions must be in by 31 August 2024.
 * **Who Can Participate:** Open to all developers, regardless of skill level. Participate solo or as a team.
-* **Submission Link:** [Submit your code snippet here](https://jf18emj1p49.typeform.com/to/ayGjRdGw) before the deadline to qualify for rewards.
+* **Submission Link:** [Submit your build here](https://jf18emj1p49.typeform.com/to/xJLvr7Af) before the deadline to qualify for rewards.
 
 ## Rewards
 
 * **Swag for All:** <mark style="background-color:yellow;">Every participant who submits a snippet</mark> will receive an Investec Developer swag shirt.
-* **Top Picks:** The <mark style="background-color:yellow;">best two snippets</mark>, _as chosen by the API team_, will be featured on the Low-code screens on the Investec banking portal.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-19 at 08.39.52.png" alt="" width="354"><figcaption><p>Possable swag rewards</p></figcaption></figure>
 
@@ -58,7 +47,7 @@ and earn some cool Investec Developer swag!
 
 1. **Declare Your Participation:** Jump into our [Bounties Slack Channel](https://investec-dev-com.slack.com/archives/C05MNBE2G3C) and announce your entry with an "<mark style="background-color:yellow;">**I'm In!**</mark>"
 2. **Need Help or Company?** If you have questions or want to collaborate, reach out in the [Bounties Slack channel](https://investec-dev-com.slack.com/archives/C05MNBE2G3C). Our community champions are ready to assist.
-3. **Submit Your Snippet:** Use the [submission form](https://jf18emj1p49.typeform.com/to/ayGjRdGw) to send in your work by the end of Q2 2024.
+3. **Submit Your Snippet:** Use the [submission form](https://jf18emj1p49.typeform.com/to/xJLvr7Af) to send in your work by the end of Q3 2024.
 
 ## Support and Collaboration
 
@@ -82,4 +71,4 @@ and earn some cool Investec Developer swag!
 
 ## Ready to Code?
 
-Let's make Q2 2024 a season of innovation and collaboration. Declare your participation by saying "I'm in!" in the [#bounties channel on Slack](https://investec-dev-com.slack.com/archives/C05MNBE2G3C), and let's create something incredible together!
+Let's make Q3 2024 a season of innovation and collaboration. Declare your participation by saying "I'm in!" in the [#bounties channel on Slack](https://investec-dev-com.slack.com/archives/C05MNBE2G3C), and let's create something incredible together!
