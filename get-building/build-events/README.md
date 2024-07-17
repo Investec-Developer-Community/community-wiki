@@ -6,7 +6,7 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 
 ### Current Build Challenges
 
-* [Q3 2024 Bounty Challenge | Everyday Solutions](q2-2024-bounty-challenge-or-card-code-snippets.md)
+* [Q3 2024 Bounty Challenge | Everyday Solutions](q3-2024-bounty-challenge-every-day-solutions.md)
 
 ### Passed Hackathon & Build Events submissions
 
@@ -20,6 +20,6 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 * [Q2 2023 Community Bounty Challenges](open-q2-2023-bounty-challenge/)
 * [Bounties Playground](open-bounties-playground-or-banking.make.dev.md) | banking.make.dev - Banking API tools
 * [Q1 2024 Bounty Challenge](closed-q1-2024-bounty-challenge-or-the-tutorial-quest.md) | The Tutorial Quest
-* [Q2 2024 Bounty Challenge | Card Code Snippets](q2-2024-bounty-challenge-or-card-code-snippets-1.md)
+* [Q2 2024 Bounty Challenge | Card Code Snippets](q2-2024-bounty-challenge-or-card-code-snippets.md)
 
 ###
