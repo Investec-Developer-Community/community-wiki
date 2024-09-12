@@ -4,13 +4,13 @@
 
 In addition to retrieving historical data from your account, the Investec 🏦 Private Banking API allows you to programmatically make payments to beneficiaries on your account. This functionality is not yet available on the 🧰 CIB API.
 
-Let’s explore how to make a payment to an existing beneficiary on your account using the community-contributed [**Postman Collection**](https://www.postman.com/investec-open-api/workspace/programmable-banking/overview).&#x20;
+Let’s explore how to make a payment to an existing beneficiary on your account using the community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0).
 
 {% hint style="info" %}
 **Pro-Tip:** You can only make programmatic payments to beneficiaries that have been paid at least once before with regular online banking from your account.
 {% endhint %}
 
-As with accounts, every beneficiary on your banking profile also has a unique ID. You can retrieve the list of beneficiaries from the following endpoint: https://openapi.investec.com/za/pb/v1/accounts/beneficiaries. Again, you use a bearer token for authentication as with all API requests to the Investec API, and a typical response has the following structure:&#x20;
+As with accounts, every beneficiary on your banking profile also has a unique ID. You can retrieve the list of beneficiaries from the following endpoint: https://openapi.investec.com/za/pb/v1/accounts/beneficiaries. Again, you use a bearer token for authentication as with all API requests to the Investec API, and a typical response has the following structure:
 
 ```json
 {
@@ -41,7 +41,7 @@ As with accounts, every beneficiary on your banking profile also has a unique ID
 }
 ```
 
-The [Postman Collection](https://www.postman.com/investec-open-api/workspace/programmable-banking/request/26868804-1bc46536-5cf4-4c41-8fe7-0f77ce9f0d90) has a request for this named Beneficiaries (in the Beneficiaries folder)
+The [Postman Collection](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) has a request for this named Beneficiaries (in the Beneficiaries folder)
 
 Now that you have a beneficiary ID, let’s make a small payment to them. For that, we’ll be using https://openapi.investec.com/za/pb/v1/accounts/{accountId}/paymultiple.
 
@@ -60,6 +60,6 @@ The endpoint receives an array list of payments, as it’s able to process multi
 }
 ```
 
-The [Postman collection](https://www.postman.com/investec-open-api/workspace/programmable-banking/request/26868804-66e7b38a-86f7-49b2-9977-4b0ea2c696a6) has a Beneficiary Payment request you can use to try this out for yourself.
+The [Postman collection](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) has a Beneficiary Payment request you can use to try this out for yourself.
 
 As you will see, you have full programmatic control of the process and it does not require additional manual verification.

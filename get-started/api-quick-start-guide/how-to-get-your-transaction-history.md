@@ -6,7 +6,7 @@ The API endpoint returns a list of transactions between two dates, as specified 
 
 Every account on your bank account has a unique ID that you use when transacting against it. So first, you must obtain the appropriate ID. Fortunately, the Investec API has an easy-to-use endpoint for this.
 
-Using the community-contributed [**Postman Collection**](https://www.postman.com/investec-open-api/workspace/programmable-banking/overview)**,** make an API call to to your Private Bank account using **https://openapi.investec.com/za/pb/v1/accounts**. It does not take any special parameters and returns a JSON list of all your accounts and their IDs.
+Using the community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0)**,** make an API call to to your Private Bank account using **https://openapi.investec.com/za/pb/v1/accounts**. It does not take any special parameters and returns a JSON list of all your accounts and their IDs.
 
 {% hint style="info" %}
 🧰 If you have a CIB account use the following URL instead: **https://openapi.investec.com/za/bb/v1/accounts**
@@ -86,7 +86,7 @@ If you have added the correct account ID, you will get a response with structure
 }
 ```
 
-🧰 An example CIB API response will look like this:&#x20;
+🧰 An example CIB API response will look like this:
 
 ```json
 {
@@ -212,4 +212,4 @@ That’s it!
 
 Now you know how to pull data from the Investec API. You can discover several other endpoints in the [API reference](https://developer.investec.com/za/api-products), they all authenticate in the same fashion..
 
-In the next step, we will explore how to push data to the Investec API and effect account changes.&#x20;
+In the next step, we will explore how to push data to the Investec API and effect account changes.

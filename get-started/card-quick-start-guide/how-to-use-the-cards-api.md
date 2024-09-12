@@ -1,6 +1,6 @@
 # 💳 How to use the Cards API
 
-There is a community-contributed[ **Postman Collection**](https://www.postman.com/investec-open-api/workspace/programmable-banking/overview) that we recommend you fork as you follow along in the guide.
+There is a community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) that we recommend you fork as you follow along in the guide.
 
 In order to use the API, please refer to the [following guide](../api-quick-start-guide/how-to-get-your-api-keys.md) to get your API Keys and to familiarise yourself with the Authentication process.
 
@@ -10,7 +10,7 @@ After you have authenticated your API access in Postman, use the following card 
 
 <summary><span data-gb-custom-inline data-tag="emoji" data-code="1f4b3">💳</span> Get Cards</summary>
 
-The first step is to call the `GetCards` endpoint. This endpoint returns all the cards associated with a user's account.&#x20;
+The first step is to call the `GetCards` endpoint. This endpoint returns all the cards associated with a user's account.
 
 **ProTip:** When deploying custom code to a given card, you will need to use the `cardkey` variable that is returned from the Get Cards response.
 
@@ -49,7 +49,7 @@ The first step is to call the `GetCards` endpoint. This endpoint returns all the
 
 To update the code on your card, we use the `UpdateFunctionCode` endpoint which saves the code to your card (it doesn’t publish it). Replace the `cardkey` attribute in the URL on this endpoint with the `cardkey` variable from the `GetCards` endpoint of the card that you would like the code to be on.
 
-![](https://lh4.googleusercontent.com/bsPNyNw5xAZkmiVafHkVGGm-knX8qH2VJ6dO2FHiSL8rUXhtBZwRMGwfMDZ5wTeHgzwkyI89sUFVynC9pQSs1-bW9F-sdW80kTDc1mmGqu\_k9x8N3L7c1dSfu39S5T-Le4NX0ovAAjRw0EqkZK4W7Po)
+<img src="https://lh4.googleusercontent.com/bsPNyNw5xAZkmiVafHkVGGm-knX8qH2VJ6dO2FHiSL8rUXhtBZwRMGwfMDZ5wTeHgzwkyI89sUFVynC9pQSs1-bW9F-sdW80kTDc1mmGqu_k9x8N3L7c1dSfu39S5T-Le4NX0ovAAjRw0EqkZK4W7Po" alt="" data-size="original">
 
 Replace the body of the request with the following:
 
@@ -96,9 +96,9 @@ The `codeid` returned from the response is uniquely generated every time you pos
 
 <details>
 
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f468-1f4bb">👨💻</span> Publish Saved Code</summary>
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f468-1f4bb">👨‍💻</span> Publish Saved Code</summary>
 
-The `PublishSavedCod`endpoint will publish the code to the specified card and activate it.&#x20;
+The `PublishSavedCod`endpoint will publish the code to the specified card and activate it.
 
 We first replace the `cardkey` variable in the URL for the card that you want to publish the code to and replace the body of the request with the following:
 
@@ -156,7 +156,7 @@ You will use the `ExecuteFunctionCode` endpoint for testing your code before pub
 
 The above snippet simulates and declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.
 
-![](https://lh4.googleusercontent.com/Npq2CiY9\_IcoOga\_B0Qx4k-LF-5PvGcarJc0glvphtFxNsmuZ7Wx3Iba9qrgqAit1ND1XK7W1P8bi1XKzFZByS95wdGtz5qNB1YD5W\_HO0mH7R8vGsnRHI8izAtrlhaDEFusDX1TJC4PREGKm7gSbuA)
+<img src="https://lh4.googleusercontent.com/Npq2CiY9_IcoOga_B0Qx4k-LF-5PvGcarJc0glvphtFxNsmuZ7Wx3Iba9qrgqAit1ND1XK7W1P8bi1XKzFZByS95wdGtz5qNB1YD5W_HO0mH7R8vGsnRHI8izAtrlhaDEFusDX1TJC4PREGKm7gSbuA" alt="" data-size="original">
 
 As you can see by the response, the code fails the simulated transaction
 
