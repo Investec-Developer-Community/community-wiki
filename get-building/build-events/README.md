@@ -6,7 +6,7 @@ The community-driven Hackathons are a great way to play with Programmable Bankin
 
 ### Current Build Challenges
 
-* Q4 Bounty
+* [Q4 2024 Bounty Challenge | Festive API Wrappers](q4-2024-bounty-challenge-festive-api-wrappers.md)
 
 ### Passed Hackathon & Build Events submissions
 

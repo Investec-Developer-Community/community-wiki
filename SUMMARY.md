@@ -37,7 +37,7 @@
   * [Beneke Gantley Inc.](get-building/use-cases/beneke-gantley-inc..md)
 * [Build Challenges](get-building/build-events/README.md)
   * [🎁 Q4 2024 Bounty Challenge | Festive API Wrappers](get-building/build-events/q4-2024-bounty-challenge-festive-api-wrappers.md)
-  * [🚂 Q3 2024 Bounty Challenge | Everyday Solutions](get-building/build-events/q3-2024-bounty-challenge-every-day-solutions.md)
+  * [🚂 \[Closed\] Q3 2024 Bounty Challenge | Everyday Solutions](get-building/build-events/q3-2024-bounty-challenge-every-day-solutions.md)
   * [☄️ \[CLOSED\] Q2 2024 Bounty Challenge | Card Code Snippets](get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets.md)
   * [💰 \[CLOSED\] Bounties Playground | banking.make.dev](get-building/build-events/open-bounties-playground-or-banking.make.dev.md)
   * [👩‍💻 👩💻 \[CLOSED\] Mindjoy | Kid at Heart Build Challenge](get-building/build-events/closed-mindjoy-or-kid-at-heart-build-challenge.md)
