@@ -2,7 +2,7 @@
 
 ## 🏠 Home
 
-* [Programmable Banking Community](README.md)
+* [Investec Developer community wiki](README.md)
 
 ## ⚒️ Get Started
 
