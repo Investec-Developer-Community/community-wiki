@@ -6,6 +6,7 @@
 
 ## ⚒️ Get Started
 
+* [Get started overview](get-started/get-started-overview.md)
 * [Investec Developer Docs](https://developer.investec.com/za/api-products)
 * [Self-Enrollment Guide](get-started/self-enrollment-guide.md)
 * [API Quick Start Guide](get-started/api-quick-start-guide/README.md)
