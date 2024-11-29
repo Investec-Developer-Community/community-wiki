@@ -1,25 +1,15 @@
----
-description: >-
-  Current Investec clients are now able to self-service with Programmable
-  Banking.
----
+# Self-enrollment guide
 
-# Self-Enrollment Guide
+If you are an Investec client and would like access to Investec Developer, login to Investec Online and follow the steps below to self-enroll:
 
-1️⃣ The client can click on “**Manage**” in the left-hand menu, then click on “**Investec Developer**”:
+1️⃣ Click on “**Manage**” in the left-hand menu, then click on **“Investec Developer**"&#x20;
 
-<figure><img src="../.gitbook/assets/Step1.jpg" alt=""><figcaption><p>Click "Investec Developer" to start the enrollement.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Step 1 .png" alt=""><figcaption></figcaption></figure>
 
-They can then enroll for Programmable Banking.
+2️⃣  Read and acknowledge the terms and conditions and click “**Enroll**”.&#x20;
 
-2️⃣ Once enrolled, they can click on “Manage code” under “Programmable Card IDE”:
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-05 104743.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/Step2.jpg" alt=""><figcaption><p>Edit card code from here.</p></figcaption></figure>
+3️⃣ You are now enrolled for Investec Developer and will be taken to the Investec Developer home page. Here, you can manage and control your API, card and Investec Developer community access.&#x20;
 
-3️⃣ They will be presented with a list of their cards. Below the card is a toggle. They can switch that to enabled, and then the card is ready to be coded:
-
-<figure><img src="../.gitbook/assets/Step3.jpg" alt=""><figcaption><p>Click the card image to open the IDE</p></figcaption></figure>
-
-4️⃣ To open up the IDE, they can click on the card image. Alternatively, the card code can also be updated via the APIs.
-
-All the documentation is available on our [Investec Developer Portal here.](https://developer.investec.com/)
+<figure><img src="../.gitbook/assets/Screenshot 2024-11-05 104839 (1).png" alt=""><figcaption></figcaption></figure>

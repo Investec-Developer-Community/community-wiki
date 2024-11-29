@@ -8,7 +8,7 @@
 
 * [Get started overview](get-started/get-started-overview.md)
 * [Investec Developer Docs](https://developer.investec.com/za/api-products)
-* [Self-Enrollment Guide](get-started/self-enrollment-guide.md)
+* [Self-enrollment guide](get-started/self-enrollment-guide.md)
 * [API Quick Start Guide](get-started/api-quick-start-guide/README.md)
   * [🔑 How to get your API keys](get-started/api-quick-start-guide/how-to-get-your-api-keys.md)
   * [👤 How to authenticate](get-started/api-quick-start-guide/how-to-authenticate.md)

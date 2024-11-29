@@ -23,10 +23,10 @@ layout:
 
 **Welcome to the Investec Developer community wiki,** a public repo and source of truth for all Investec Developer resources.
 
-The [<mark style="color:orange;">**Investec Developer community**</mark>](https://developer.investec.com/za/community) welcomes anyone interested in building on the Investec banking experience, creating new fintech solutions, sharing ideas, and connecting with other like-minded developers.
+The [<mark style="color:blue;">**Investec Developer community**</mark>](https://developer.investec.com/za/community) welcomes anyone interested in building on the Investec banking experience, creating new fintech solutions, sharing ideas, and connecting with other like-minded developers.
 
 {% hint style="info" %}
-**Join the Investec Developer community by signing up** [<mark style="color:orange;">**here**</mark>](https://jf18emj1p49.typeform.com/to/RXy7DHSD)<mark style="color:orange;">**.**</mark>
+**Join the Investec Developer community by signing up** [<mark style="color:blue;">**here**</mark>](https://jf18emj1p49.typeform.com/to/RXy7DHSD)<mark style="color:blue;">**.**</mark>
 
 We look forward to meeting you!&#x20;
 {% endhint %}
@@ -40,11 +40,11 @@ We look forward to meeting you!&#x20;
 {% hint style="info" %}
 **Please note that the Investec Developer offering is tailored per region (South Africa, United Kingdom, and Mauritius) due differences financial needs and regulations.**&#x20;
 
-You can toggle between each region in the top-right hand corner of the [<mark style="color:orange;">Investec Developer portal</mark>](https://developer.investec.com/za/home)<mark style="color:orange;">.</mark>
+You can toggle between each region in the top-right hand corner of the [<mark style="color:blue;">Investec Developer portal</mark>](https://developer.investec.com/za/home)<mark style="color:orange;">.</mark>
 
 **All resources that have been created for this wiki are specific to the Investec Developer South Africa offering.**
 {% endhint %}
 
-_If you have any questions or need further information, please feel free to reach out to us at_ [<mark style="color:orange;">developercommunity@investec.co.za</mark>](mailto:developercommunity@investec.co.za)
+_If you have any questions or need further information, please feel free to reach out to us at_ [<mark style="color:blue;">developercommunity@investec.co.za</mark>](mailto:developercommunity@investec.co.za)
 
 ✨ Investec Developer community wiki _— 2024 Made by badass unicorns_&#x20;
