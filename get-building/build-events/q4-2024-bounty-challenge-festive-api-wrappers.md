@@ -2,7 +2,13 @@
 description: Build, Share, and Win with Investec's Q4 2024 Festive Wrapper Challenge
 ---
 
-# 🎁 Q4 2024 Bounty Challenge | Festive API Wrappers
+# 🎁 \[CLOSED] Q4 2024 Bounty Challenge | Festive API Wrappers
+
+### \[UPDATED 03/12/24] This bounty challenge is closed. We had an awesome submission get in on time 🛷:
+
+| Name                                          | Coder                                          | Description                                                        | Link                                                               |
+| --------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| 🎄 Investec API Wrapper: Your Festive Helper! | [Melody Mbewe](https://github.com/devNenyasha) | A simple PHP wrapper for Investec's Private Banking and ICIB APIs. | [GitHub Repo](https://github.com/devNenyasha/investec-api-wrapper) |
 
 We're super excited to announce our Q4 2024 Bounty Challenge, and it's all about getting festive with your favourite API wrappers! 🎉
 

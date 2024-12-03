@@ -1,5 +1,6 @@
 ---
 description: Big News About Our Programmable Banking Community Slack Workspace!
+hidden: true
 ---
 
 # Slack Workspace Move \[COMPLETED]
