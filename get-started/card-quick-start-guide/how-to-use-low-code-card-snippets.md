@@ -23,7 +23,7 @@ If you're not confident with coding yet, we've got you covered. There are 3 diff
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 152759.png" alt=""><figcaption></figcaption></figure>
 
-3. An explanation of the code snippet is provided in the next screen.
+5. An explanation of the code snippet is provided in the next screen.
 
 * The code in the **main.js file** will be updated automatically and doesn't require any edits.
 * The code in the **env.json file** requires that you set the limit for the transaction limit.&#x20;
