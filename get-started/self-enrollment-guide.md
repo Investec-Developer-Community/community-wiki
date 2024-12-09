@@ -1,6 +1,8 @@
 # Self-enrollment guide
 
-If you are an Investec client and would like access to Investec Developer, login to Investec Online and follow the steps below to self-enroll:
+🏦 **Private Banking APIs**
+
+If you are a Private Banking Investec client and would like access to Investec Developer, login to Investec Online and follow the steps below to self-enroll:
 
 1️⃣ Click on “**Manage**” in the left-hand menu, then click on **“Investec Developer**"&#x20;
 

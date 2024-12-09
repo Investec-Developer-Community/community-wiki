@@ -40,7 +40,7 @@ We look forward to meeting you!&#x20;
 {% hint style="info" %}
 **Please note that the Investec Developer offering is tailored per region (South Africa, United Kingdom, and Mauritius) due differences financial needs and regulations.**&#x20;
 
-You can toggle between each region in the top-right hand corner of the [<mark style="color:blue;">Investec Developer p</mark>ortal](https://developer.investec.com/za/home).
+You can toggle between each region in the top-right hand corner of the [Investec Developer portal](https://developer.investec.com/za/home).
 
 **All resources that have been created for this wiki are specific to the Investec Developer South Africa offering.**
 {% endhint %}

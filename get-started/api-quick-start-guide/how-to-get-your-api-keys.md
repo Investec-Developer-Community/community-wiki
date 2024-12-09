@@ -2,20 +2,31 @@
 
 {% embed url="https://www.loom.com/share/28eda68190434b8fb96285f530777987" %}
 
-To start using the Investec API, you must first obtain credentials for programmatic access. These are used to authenticate your requests so you can transact securely against your Investec Account.
+To start using the Investec API, you must first obtain credentials (client ID and secret) for programmatic access.&#x20;
 
-Before doing so, you must first enrol your Investec Private Bank or CIB account for Programmable Banking functionality. ([See Self-Enrollment Guide](../self-enrollment-guide.md))
-
-You can do so by navigating [Investec Online ](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form)and selecting _Manage -> Investec Developer,_ after which you can accept the terms and conditions and enrol.
-
-Now that you have an Investec Account with Programmable Banking enabled, you can retrieve your API credentials online.
-
-🏦 **Private Banking Account**: You can find your client\_ID and client\_secret in the _Manage_--> _Investec Developer -> Individuals Connections_ section of Investec Online.
-
-🧰 **CIB Account**: You can find your client\_ID and client\_secret in the _Manage_--> _Investec Developer -> Business Connections_ section of Investec Online.
-
-You will also want to create an API key. Click the _Create new API key_ button and follow the instructions.
+API keys can be created with specified permissions and are used to authenticate your requests so that you can transact securely against your Investec account.&#x20;
 
 {% hint style="info" %}
-Please note that only the main account holder will have access to these credentials and the ability to create new API keys.
+Before you begin, ensure you are enrolled for Investec Developer on your Private Banking or CIB account (see [Investec Developer self enrollment guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/self-enrollment-guide)).&#x20;
 {% endhint %}
+
+🏦 **Private Banking account**
+
+1. Login to Investec Online and click on “Manage”, followed by Investec Developer.&#x20;
+2. Select “Individual Connections”. You will be able to view your credentials (client ID and secret) and any API keys you have created for your account here.&#x20;
+3. Click on “Create new API key”.
+4. Name your API key by entering a name under “Alias”&#x20;
+5. Select the account(s) for which you would like to grant the API keys to access to.&#x20;
+6. Select the permissions for which you would like the API keys to have access to.&#x20;
+7.
+   1. Your account name and number
+   2. Your account balance
+   3. Your transactions
+   4. Your inter account transfers
+   5. Allow beneficiary payments
+   6. View statements
+   7. View tax certificates
+   8. View and update card code&#x20;
+8. Select continue to create your API key. The new API key will now be available on the Individual Connections page.&#x20;
+
+**Only the main account holder will have access to credentials and have the ability to create new API keys.**&#x20;
