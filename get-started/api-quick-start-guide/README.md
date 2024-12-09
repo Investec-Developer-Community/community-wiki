@@ -1,6 +1,6 @@
 # API quick start guide
 
-📖 This API Quick Start Guide provide a step-by-step for getting started on the Investec's banking API and covers:
+This API Quick Start Guide provide a step-by-step for getting started on the Investec's banking API and covers:
 
 * 🔑 [How to get your Investec API keys](how-to-get-your-api-keys.md)&#x20;
 * 👤 [How to authenticate and test your keys](how-to-authenticate.md)

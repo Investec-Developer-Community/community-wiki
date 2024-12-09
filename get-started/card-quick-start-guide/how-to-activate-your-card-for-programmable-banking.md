@@ -1,21 +1,18 @@
-# 🙌 How to activate your card for Programmable Banking
+# 🙌 How to activate your programmable card
 
-* Navigate to [Investec Online Banking](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form) and login with your details.
-* Once you have logged in, you will be presented with your profile.&#x20;
-* On the left-hand side menu, go to _Manage -> Investec Developer._
+1. Login to Investec Online. Ensure you are enrolled for Investec Developer - see the [self-enrollment guide](../self-enrollment-guide.md).&#x20;
+2. Navigate to the Investec Developer homepage by clicking on **“Manage”**, followed by **“Investec Developer”**.&#x20;
 
-<figure><img src="../../.gitbook/assets/Step1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Step 1 .png" alt=""><figcaption></figcaption></figure>
 
-* Once enrolled, you can click on “_Manage code_” under “_Programmable Card IDE_”:
+3. Click on **“manage code”** on the Programmable Card IDE tile.&#x20;
 
-<figure><img src="../../.gitbook/assets/Step2.jpg" alt=""><figcaption><p>Edit card code from here.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2024-11-11 094333.png" alt=""><figcaption></figcaption></figure>
 
-* Navigate to the desired card on your profile and ensure that you have enabled it for Programmable Banking by toggling the button below the card.
+4. You will be presented with a list of your cards. Below the card is toggle. Switch the toggle to activate the card. Toggle the switch again to deactivate the card.
 
-<figure><img src="../../.gitbook/assets/Step3.jpg" alt=""><figcaption><p>Toggle to enabled.</p></figcaption></figure>
-
-* To open up the IDE, you can click on the card image. Alternatively, the card code can also be updated via the APIs.
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 151943.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**ProTip:** You can enable and disable the code on each card using the toggle below the cards. You can access this via the mobile app if you need to do so while at the shop till.
+**ProTip:** You can access the card toggle on/off  via the mobile app if you need to do so while at the shop till.
 {% endhint %}

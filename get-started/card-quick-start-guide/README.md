@@ -1,13 +1,17 @@
-# Card Quick Start Guide
+# Programmable card quick start guide
 
-:credit\_card: Investec Programmable Cards give you the ability to write custom code for your card, enabling you to to build your own rules and limits that execute before and after your card transactions.&#x20;
+Investec programmable cards give you the ability to write custom code for your card, enabling you to to build your own rules and limits that execute before and after your card transactions.
 
-📖 This Card Quick Start Guide provides a step-by-step for getting started and adding code to your Investec card(s) and covers:
+This quick start guide provides a step-by-step for getting started and adding code to your Investec card(s) and covers:
 
-* :raised\_hands:[How to activate your card for Programmable Banking](how-to-activate-your-card-for-programmable-banking.md)
-* 🖥️ [How to add code to your code on the Online IDE](how-to-add-code-to-your-card.md)
+* :raised\_hands: [How to activate your card for Investec Developer](how-to-activate-your-card-for-programmable-banking.md)
+* 🖥️ [How to add code to your programmable card on the Online IDE](how-to-add-code-to-your-card.md)
 * 💰 [How to simulate a transaction on the Online IDE](how-to-simulate-a-transaction.md)
-* 💳 [How to use Programmable Cards via the Card API](how-to-use-the-cards-api.md)
+* 💳 [How to use programmable cards via the Card API](how-to-use-the-cards-api.md)
+
+**Low-code option available on Investec Online:**
+
+* 🚀[ How to add rules to your programmable card using our low-code snippets](how-to-use-low-code-card-snippets.md)
 
 {% hint style="info" %}
 **Pro-Tip:** Programmable cards use code written in **JavaScript**.
