@@ -24,6 +24,7 @@
 
 ## ⚒️ Get Building
 
+* [Get building overview](get-building/get-building-overview.md)
 * [Community Libraries & Tools](get-building/community-libraries-and-tools.md)
 * [Community GitHub](https://github.com/Investec-Developer-Community)
 * [Open-Source Projects](https://github.com/Investec-Developer-Community/Community-Projects)
