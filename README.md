@@ -26,7 +26,7 @@ layout:
 The [**Investec Developer community**](https://developer.investec.com/za/community) welcomes anyone interested in building on the Investec banking experience, creating new fintech solutions, sharing ideas, and connecting with other like-minded developers.
 
 {% hint style="info" %}
-**Join the Investec Developer community by signing up** [**here**](https://jf18emj1p49.typeform.com/to/RXy7DHSD)**.**
+**Join the Investec Developer community by signing up** [**here**](https://forms.office.com/r/dCUkWsvcxq)**.**
 
 We look forward to meeting you!&#x20;
 {% endhint %}

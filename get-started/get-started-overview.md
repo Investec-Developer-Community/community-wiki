@@ -5,7 +5,7 @@
 1. Make sure you are enrolled for Investec Developer on [Investec online](https://login.secure.investec.com/wpaas). A step by step is [here](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/self-enrollment-guide).
 2. Look over our [API quickstart resources](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/api-quick-start-guide) to get up and running on the API
 3. Look over our [programmable card quickstart resources](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/card-quick-start-guide) to activate and start using your programmable card.
-4. Join the Investec Developer community by signing up [here](https://jf18emj1p49.typeform.com/to/RXy7DHSD?typeform-source=investec.gitbook.io).
+4. Join the Investec Developer community by signing up [here](https://forms.office.com/r/dCUkWsvcxq).
 5. Dig further into the Investec Developer documentation [here](https://developer.investec.com/za/home).
 6. Get support if you are struggling by emailing us at **developercommunity@investec.co.za**
 
