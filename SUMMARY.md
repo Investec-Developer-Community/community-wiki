@@ -20,12 +20,12 @@
   * [🖥️ How to add code to your card](get-started/card-quick-start-guide/how-to-add-code-to-your-card.md)
   * [💰 How to simulate a transaction](get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)
   * [💳 How to use the Cards API](get-started/card-quick-start-guide/how-to-use-the-cards-api.md)
-* [Sample Apps](get-started/sample-apps.md)
+* [Sample apps](get-started/sample-apps.md)
 
 ## ⚒️ Get Building
 
 * [Get building overview](get-building/get-building-overview.md)
-* [Community Libraries & Tools](get-building/community-libraries-and-tools.md)
+* [Community libraries & tools](get-building/community-libraries-and-tools.md)
 * [Community GitHub](https://github.com/Investec-Developer-Community)
 * [Open-Source Projects](https://github.com/Investec-Developer-Community/Community-Projects)
 * [Build Tutorials & Templates](get-building/build-something-simple/README.md)
