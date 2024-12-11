@@ -8,7 +8,7 @@ We collated a list of some of the most common questions community members are as
 
 If you have a question that isn't covered by these FAQs, post it on the [Slack channel](https://offerzen-community.slack.com/archives/C048HKU4P0X) 💬
 
-And if you find the solution to an error or a bug, write it down, post it in the [Slack channel](https://offerzen-community.slack.com/archives/C048HKU4P0X) or record a quick video. Chances are other developers are having the same issue, and you might save them a lot of time 💜
+And if you find the solution to an error or a bug, write it down, post it in the [Slack channel](https://offerzen-community.slack.com/archives/C048HKU4P0X) or record a quick video. Chances are other developers are having the same issue, and you might save them a lot of time.
 
 ## 🖥️ Investec API FAQs
 
@@ -16,19 +16,19 @@ And if you find the solution to an error or a bug, write it down, post it in the
 
 <summary>How do I create a new or multiple Investec API key(s)?</summary>
 
-You can create API keys for your account by logging into the [Investec Online Portal](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form). Navigate to "Tools" -->  “Programmable Banking” to access your API credentials and create API key(s).&#x20;
+You can create API keys for your account by logging into the [Investec Online Portal](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form). Navigate to "Manage" -> “Investec Developer” -> "Individual Connections" to access your API credentials and create API key(s) for your Private Banking account.&#x20;
 
-Check out [How to Get your API key](../get-started/api-quick-start-guide/how-to-get-your-api-keys.md) for more details.&#x20;
+Check out [How to get your API key](../get-started/api-quick-start-guide/how-to-get-your-api-keys.md) for more details.&#x20;
 
 </details>
 
 <details>
 
-<summary>How do I authenticate and obtain an access token to use the Investec Programmable Banking APIs?</summary>
+<summary>How do I authenticate and obtain an access token to use the Investec Banking APIs?</summary>
 
-The authentication process involves obtaining an access token using the OAuth 2.0 Authorisation Framework. You'll need to make a request to the authentication endpoint with your client credentials to receive the access token.&#x20;
+The authentication process involves obtaining an access token using the OAuth 2.0 Authorisation Framework. You'll need to make a request to the authentication endpoint with your client credentials to receive the access token.
 
-Check out [How to authenticate](../get-started/api-quick-start-guide/how-to-authenticate.md) for more details.&#x20;
+Check out [How to authenticate](../get-started/api-quick-start-guide/how-to-authenticate.md) for more details.
 
 </details>
 
@@ -38,7 +38,7 @@ Check out [How to authenticate](../get-started/api-quick-start-guide/how-to-auth
 
 The API provides several endpoints, such as "Get Accounts," "Get Account Balance," and "Get Account Transactions," which allow you to retrieve account details, balances, and transaction information. These endpoints support HTTP methods like GET and POST.
 
-Check out [How to get your transaction history](../get-started/api-quick-start-guide/how-to-get-your-transaction-history.md) for more details.&#x20;
+Check out [How to get your transaction history](../get-started/api-quick-start-guide/how-to-get-your-transaction-history.md) for more details.
 
 </details>
 
@@ -74,27 +74,17 @@ Check out [How to get your transaction history](../get-started/api-quick-start-g
 
 <details>
 
-<summary>How do I list transactions on the API that have not moved to POSTED yet (ie. pending transactions)? </summary>
+<summary>Why is the Posted Order of my transactions =0 ?</summary>
 
-It is not currently possible to list pending transactions on the API, however, you can calculate pending transactions using the following formula:
-
-\[Available balance] - \[Actual balance] - \[Overdraft limit value] = Pending transactions
+The Posted Order of a transaction may start out listed as 0 and then change to the correct number once it has settled. To be safe, ignore transactions while their Posted Order =0.
 
 </details>
 
 <details>
 
-<summary>Why is the Posted Order of my transactions =0 ? </summary>
+<summary>What is the difference between the fields transactionDate and postingDate?</summary>
 
-The Posted Order of a transaction may start out listed as 0 and then change to the correct number once it has settled. To be safe, ignore transactions while their Posted Order =0.&#x20;
-
-</details>
-
-<details>
-
-<summary>What is the difference between the fields transactionDate and postingDate? </summary>
-
-_transactionDate_ is the date that you swiped your card or issued a payment. _postingDate_ is the date that the amount was deducted from your balance.&#x20;
+_transactionDate_ is the date that you swiped your card or issued a payment. _postingDate_ is the date that the amount was deducted from your balance.
 
 </details>
 
@@ -107,18 +97,16 @@ _transactionDate_ is the date that you swiped your card or issued a payment. _po
 * **Endpoint**: ‘POST /za/pb/v1/accounts/{acountId}/transfermultiple’
 * **Method**: POST
 * **Description**: Allows you to transfer funds to one or multiple accounts.
-* **Request body**: The request body should include an array of transfer objects specifying the beneficiary account, amount, and reference details.\
-
+* **Request body**: The request body should include an array of transfer objects specifying the beneficiary account, amount, and reference details.\\
 
 **Pay Multiple:**
 
 * **Endpoint**: ‘POST /za/pb/v1/accounts/{accountId}/paymutiple’
 * **Method**: POST
 * **Description**: Enables you to pay funds to one or multiple beneficiaries.
-* **Request** **Body**: The request body should include an array of payment objectives specifying the beneficiary, amount, and reference details. \
+* **Request** **Body**: The request body should include an array of payment objectives specifying the beneficiary, amount, and reference details. \\
 
-
-To initiate transfers and payments, make a HTTP POST request to the respective endpoints mentioned above. Ensure that you include the necessary authorisation and authentication headers, and the Bearer token obtained through the OAuth process, to authenticate your API request.&#x20;
+To initiate transfers and payments, make a HTTP POST request to the respective endpoints mentioned above. Ensure that you include the necessary authorisation and authentication headers, and the Bearer token obtained through the OAuth process, to authenticate your API request.
 
 \
 View the [Investec Developer Docs](https://developer.investec.com/za/api-products) for more details.
@@ -127,9 +115,9 @@ View the [Investec Developer Docs](https://developer.investec.com/za/api-product
 
 <details>
 
-<summary>Can I create a beneficiary via the API? </summary>
+<summary>Can I create a beneficiary via the API?</summary>
 
-Currently, the API does not support direct creation of beneficiaries. To create a beneficiary, use the[ Investec Online Portal ](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form)or other standard methods provided by Investec.&#x20;
+Currently, the API does not support direct creation of beneficiaries. To create a beneficiary, use the[ Investec Online Portal ](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form)or other standard methods provided by Investec.
 
 Once you have created a beneficiary, make at least one payment to that beneficiary using Investec Online before initiating a payment via the API. This ensures that the beneficiary is properly set up and ready to receive payments via the API.
 
@@ -149,11 +137,11 @@ Check out [How to make a payment](../get-started/api-quick-start-guide/how-to-ma
 
 <details>
 
-<summary>Where do I access the Online IDE to program my card? </summary>
+<summary>Where do I access the Online IDE to program my card?</summary>
 
-Login to the [Investec Online Portal ](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form)and navigate to Programmable Banking. Navigate to the desired card on your profile and ensure that you have enabled it for Programmable Banking by toggling the button below the card. Click on the card to open up the Online IDE.
+Login to the [Investec Online Portal ](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form)and navigate to Investec Developer. Navigate to the desired card on your profile and ensure that you have enabled it by toggling the button below the card. Click on the card to open up the Online IDE.
 
-Check out [How to activate your card for Programmable Banking](../get-started/card-quick-start-guide/how-to-activate-your-card-for-programmable-banking.md) for more details.&#x20;
+Check out [How to activate your card](../get-started/card-quick-start-guide/how-to-activate-your-card-for-programmable-banking.md) for more details.
 
 </details>
 
@@ -163,7 +151,7 @@ Check out [How to activate your card for Programmable Banking](../get-started/ca
 
 You can use the beforeTransaction method in the main.js file to intercept the authorization object before it is approved by Investec. Within this method, you can apply logic to either approve or decline the transaction based on the authorization data or external data sources.
 
-Check out [How to add code to your card](../get-started/card-quick-start-guide/how-to-add-code-to-your-card.md) for more details.&#x20;
+Check out [How to add code to your card](../get-started/card-quick-start-guide/how-to-add-code-to-your-card.md) for more details.
 
 </details>
 
@@ -207,8 +195,8 @@ Environment variables can be defined and saved in the env.json file. These varia
 
 You can differentiate between simulated transactions and production transactions by checking the transaction reference. In the afterTransaction method, you can compare transaction.reference with a specific value (e.g., "simulation") to identify simulated transactions.
 
-Check out [How to simulate a transaction ](../get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)for more details.&#x20;
+Check out [How to simulate a transaction ](../get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)for more details.
 
 </details>
 
-💡  It's always recommended to consult the [official documentation](https://developer.investec.com/za/api-products) provided by Investec for detailed instructions and specific technical guidance
+💡 It's always recommended to consult the [official documentation](https://developer.investec.com/za/api-products) provided by Investec for detailed instructions and specific technical guidance

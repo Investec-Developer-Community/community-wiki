@@ -49,7 +49,7 @@ We chose GitHub for its openness and transparency. It allows us to:
 * Maintain a searchable record of resolved issues and discussions.
 * Foster a collaborative environment where everyone can contribute and benefit.
 
-## Additional Resources
+## Additional resources
 
 For more information on the Investec API and Card, please visit our [community-faqs.md](community-faqs.md "mention") page or reach out to us on [Slack](https://investec-dev-com.slack.com/archives/C05MQQDUJ3E).
 
