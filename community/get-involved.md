@@ -22,7 +22,7 @@ We run a [**community champions program**](community-champions.md), where our mo
 
 Our community champs enable and support others to grow and learn and are integral to the community.
 
-👉 You can request to join the Champs program or nominate a fellow community member [**here**](https://jf18emj1p49.typeform.com/to/w75Wtkts).
+👉 You can request to join the Champs program or nominate a fellow community member [**here**](https://forms.office.com/r/fGbZ2a32Ce).
 
 ## What's the swag like?
 

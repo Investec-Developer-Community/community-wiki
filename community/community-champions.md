@@ -1,4 +1,4 @@
-# Community Champions
+# Community champions
 
 🚀Calling all Programmable Banking enthusiasts! Our **Community Champions programme** just got a turbo boost with fantastic new rewards. If you're passionate about building, sharing, and growing with our community, while living up to the [community's values](community-manifesto.md), this is for you!
 
@@ -10,7 +10,7 @@ as a few rewards for being a part of this programme are tied to that 😉.
 ## How to Get Involved
 
 * **Eligibility**: Open to all with an Investec account and Programmable Banking activated.
-* **Application**: [Apply to be a Champion](https://jf18emj1p49.typeform.com/to/w75Wtkts) and start making a difference.
+* **Application**: [Apply to be a Champion ](https://forms.office.com/r/fGbZ2a32Ce)and start making a difference.
 
 <figure><img src="../.gitbook/assets/Investec Developer Champs 2024 v1_5 (1).png" alt=""><figcaption></figcaption></figure>
 
