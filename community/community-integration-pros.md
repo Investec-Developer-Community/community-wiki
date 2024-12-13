@@ -1,7 +1,7 @@
-# Community Integration Pros
+# Community integration pros
 
 {% hint style="info" %}
-Need a boost with your Programmable Banking business integration? \
+Need a boost with your Programmable Banking business integration?\
 Check out our list of community whizzes and freelancers ready to help! 🤩
 {% endhint %}
 
@@ -19,8 +19,8 @@ Thinking about reaching out to one of our community members? Great! They're offe
 
 ### Show Off Your Skills
 
-Been busy in our Programmable Banking Community and built something cool? Awesome! **Why not join this list and share your smarts?** 👉 Just [fill in this form](https://8malmkzgvs8.typeform.com/to/vOof4Zf6) and get ready to take centre stage!
+Been busy in our Programmable Banking Community and built something cool? Awesome! **Why not join this list and share your smarts?** 👉 [Email us](mailto:developercomunnity@investec.com) with your deets and focus area and get ready to take centre stage!
 
 ### Need a Hand?
 
-Running a business and need some help with Programmable Banking integration? No problem. [Tell us about your use case](mailto:community@make.dev) and **we'll help find the right person from our community to get you sorted**.
+Running a business and need some help with Programmable Banking integration? No problem. [Tell us about your use case](mailto:developercomunnity@investec.com) and **we'll help find the right person from our community to get you sorted**.
