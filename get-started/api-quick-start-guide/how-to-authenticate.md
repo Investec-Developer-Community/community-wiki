@@ -32,9 +32,10 @@ It includes collections for the 🏦 Private Banking, 🧰  Corporate Investment
 {% endhint %}
 
 * Once you’ve signed up for an account, head over to these collections and make sure you **fork the collection that is relevant to you.**
-* The Postman collection also contains cURL code snippets and some additional notes.
 
-### Authentication using Postman
+### 1. Authentication using Postman
+
+Follow the same steps for  🏦 Private Banking, 🧰  CIB.&#x20;
 
 **Endpoint:**
 
@@ -44,7 +45,7 @@ https://openapi.investec.com/identity/v2/oauth2/token
 
 1. Head over to the "Variables" tab to set your environment variables for ease of use.
 2. Insert your **client ID**, **client secret** and **api key.**
-3. Navigate to the Auth folder, and the Authentication query.
+3. Navigate to the Auth folder, and the **POST Authentication query**.
 4. The Auth type is set to **Basic Auth** (using basic authentication headers)
 5. Your headers include the **x-api-key header** which uses your api key&#x20;
 6. In the request body,  the **grant-type** field has the value **client\_credentials**
@@ -66,7 +67,7 @@ If your keys are valid, the response will contain the token and an expiration wh
  }
 ```
 
-### Making API calls following authentication
+### 2. Making API calls following authentication
 
 * Copy the bearer token and paste it into your environment variables  table so that you can use it in all your requests going forward.&#x20;
 * It needs to be given the designation bearer in requests&#x20;

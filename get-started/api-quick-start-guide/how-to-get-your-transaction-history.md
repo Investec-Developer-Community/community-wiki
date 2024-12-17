@@ -1,27 +1,51 @@
-# 🏦 How to get your transaction history
+# 🏦 How to get your account, balance, and transaction data
 
-The Investec API enables you to query several details about an account. First, we’ll explore how to retrieve an account’s transaction history.
+### Account Information API
 
-The API endpoint returns a list of transactions between two dates, as specified in your request.
+The Account information API allows Investec clients access to their account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.
 
-Every account on your bank account has a unique ID that you use when transacting against it. So first, you must obtain the appropriate ID. Fortunately, the Investec API has an easy-to-use endpoint for this.
+🏦 **Private Banking account information API endpoint**
 
-Using the community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0)**,** make an API call to to your Private Bank account using **https://openapi.investec.com/za/pb/v1/accounts**. It does not take any special parameters and returns a JSON list of all your accounts and their IDs.
+```
+https://openapi.investec.com/za/pb/v1/accounts
+```
+
+🧰 **CIB account account information API endpoint**
+
+```
+https://openapi.investec.com/za/bb/v1/accounts
+```
+
+### **Using Postman**&#x20;
+
+If you’re new to APIs and want to get familiar with using the endpoints, we recommend you create a Postman account (it's free) and use the Postman collections provided to test things out.
 
 {% hint style="info" %}
-🧰 If you have a CIB account use the following URL instead: **https://openapi.investec.com/za/bb/v1/accounts**
+[**Investec Programmable Banking Postman Collection**](https://www.postman.com/investec-open-api/programmable-banking/overview)
+
+It includes collections for the 🏦 Private Banking, 🧰  Corporate Investment Banking and 💳Programmable card APIs.
 {% endhint %}
 
-Run the Get Accounts request in the Postman collection, and remember to add the bearer token obtained earlier on as variable in your Postman environment.
+### 1. Get your accounts and account ID with Postman&#x20;
 
-Below is an example response . You want the value in the “accountId” field.
+Follow these steps for 🏦 Private Banking and 🧰  CIB Banking, using the appropriate Postman collection and API endpoints as above.&#x20;
 
-```json
-{
-  "data": {
+1. Navigate to the **Accounts** folder and the **GET Accounts** **query**
+2. Ensure you have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
+3. Hit **Send** to make a call to the account information API endpoint as shown above (no additional parameters need to be set).&#x20;
+4. The JSON response will include all of your accounts and each account has a unique ID (**accountID**) that you will use when transacting against it.&#x20;
+
+{% hint style="info" %}
+The Accounts query returns **accountID** and **account balance** for 🧰  CIB Banking.
+{% endhint %}
+
+Below is an example response for 🏦 Private Banking
+
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>  "data": {
     "accounts": [
       {
-        "accountId": "1234567890",
+        <a data-footnote-ref href="#user-content-fn-1">"accountId": "1234567890",</a>
         "accountNumber": "11223344556677",
         "accountName": "Jane Smith",
         "referenceName": "Jane Smith",
@@ -38,55 +62,9 @@ Below is an example response . You want the value in the “accountId” field.
     "totalPages": 1
   }
 }
-```
+</code></pre>
 
-A typical request to retrieve transactions will take the form:
-
-http://api.investec.com/za/pb/v1/accounts/{accountId}/transactions?fromDate={fromDate}\&toDate={toDate}\&page=1.
-
-Where {accountId} is the account ID you have just obtained, whereas fromDate and toDate can be any [ISO 8601](https://en.wikipedia.org/wiki/ISO\_8601) formatted date \[Example of formatted date: 1999-09-09]].
-
-Let’s get transactions from the last month. Our request would be: http://api.investec.com/za/pb/v1/accounts/1234-5678/transactions?fromDate=2023-02-22\&toDate=2023-01-22\&page=1.
-
-You can add these parameters to the _Get Account Transactions_ Postman request, taking care to use the correct account ID.
-
-{% hint style="info" %}
-**Pro Tip:** As you may have noticed, the endpoint accepts a pagination parameter for when you need to iterate through a longer transaction history.
-{% endhint %}
-
-If you have added the correct account ID, you will get a response with structure:
-
-```json
-{
-  "data": {
-    "transactions": [
-      {
-        "accountId": "1234567890",
-        "type": "DEBIT",
-        "transactionType": "OnlineBankingPayments",
-        "status": "POSTED",
-        "description": "LOREM IPSUM",
-        "cardNumber": "",
-        "postedOrder": 123,
-        "postingDate": "2023-01-10",
-        "valueDate": "2023-01-11",
-        "actionDate": "2023-01-12",
-        "transactionDate": "2023-01-10",
-        "amount": 100,
-        "runningBalance": 9999.99
-      }
-    ]
-  },
-  "links": {
-    "self": "https://openapi.investec.com/za/pb/v1/accounts/1234567890/transactions?fromDate=2023-01-01&toDate=2023-01-31"
-  },
-  "meta": {
-    "totalPages": 1
-  }
-}
-```
-
-🧰 An example CIB API response will look like this:
+Below is an example response for 🧰  CIB Banking.&#x20;
 
 ```json
 {
@@ -208,8 +186,377 @@ If you have added the correct account ID, you will get a response with structure
 }
 ```
 
-That’s it!
+### 2. Get your account balance with Postman
 
-Now you know how to pull data from the Investec API. You can discover several other endpoints in the [API reference](https://developer.investec.com/za/api-products), they all authenticate in the same fashion..
+Follow these steps for 🏦 Private Banking using the appropriate Postman collection and API endpoints as above. **The account balance for 🧰 CIB Banking is included in the Get Accounts request.**
 
-In the next step, we will explore how to push data to the Investec API and effect account changes.
+1. Retrieve the accountID from your previous call to get accounts.
+2. Head over to the "Variables" table to insert your accountID.&#x20;
+3. Navigate to the **Get Account Balance query** under the **Accounts** folder
+4. Hit **Send** to make a call to the API endpoint.
+
+```
+🏦  https://openapi.investec.com/za/pb/v1/accounts/:accountId/balance
+```
+
+Below is an example response for 🏦 Private Banking
+
+```json
+{
+    "data": {
+        "accountId": "3353431574710163189587446",
+        "currentBalance": 33607.16,
+        "availableBalance": 33607.16,
+        "currency": "ZAR"
+    },
+    "links": {
+        "self": "https://openapisandbox.investec.com/za/pb/v1/accounts/3353431574710163189587446/balance"
+    },
+    "meta": {
+        "totalPages": 1
+    }
+}
+```
+
+### 3. Get your transaction data with Postman&#x20;
+
+Follow these steps for 🏦 Private Banking and 🧰 CIB Banking, using the appropriate Postman collection and API endpoints as above.&#x20;
+
+1. Ensure you have added your accountID to the "Variables" table&#x20;
+2. Navigate to the **GET Account transactions** query and set the dates for which you would like to the transactions by selecting **fromDate** and **toDate** in the **Query params table** and adding the dates.&#x20;
+3. fromDate and toDate can be any  formatted [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date \[Example of formatted date: 1999-09-09]].
+4. Hit **Send** to make a call to the API endpoint.
+
+<pre><code><strong>🏦  https://openapi.investec.com/za/pb/v1/accounts/:accountId/transactions?fromDate=2023-03-10&#x26;toDate=2023-03-10
+</strong>🧰  https://openapi.investec.com/za/bb/v1/accounts/:accountId/transactions?fromDate=2023-01-01&#x26;toDate=2023-01-31
+</code></pre>
+
+Below is an example response for 🏦 Private Banking
+
+```json
+{
+    "data": {
+        "transactions": [
+            {
+                "accountId": "3353431574710163189587446",
+                "type": "DEBIT",
+                "transactionType": "CardPurchases",
+                "status": "POSTED",
+                "description": "KURUMAN FRESH PRODUCE H KURUMAN ZA",
+                "cardNumber": "402261xxxxxx0011",
+                "postedOrder": 11049,
+                "postingDate": "2023-04-13",
+                "valueDate": "2023-04-30",
+                "actionDate": "2023-04-12",
+                "transactionDate": "2023-04-11",
+                "amount": 53.6,
+                "runningBalance": 34679.66
+            },
+            {
+                "accountId": "3353431574710163189587446",
+                "type": "DEBIT",
+                "transactionType": "CardPurchases",
+                "status": "POSTED",
+                "description": "YOCO   *ARUKAH HEALTH KURUMAN ZA",
+                "cardNumber": "402261xxxxxx0018",
+                "postedOrder": 11050,
+                "postingDate": "2023-04-13",
+                "valueDate": "2023-04-30",
+                "actionDate": "2023-04-12",
+                "transactionDate": "2023-04-12",
+                "amount": 374,
+                "runningBalance": 34305.66
+            },
+           
+        ]
+    },
+    "links": {
+        "self": "https://openapisandbox.investec.com/za/pb/v1/accounts/3353431574710163189587446/transactions"
+    },
+    "meta": {
+        "totalPages": 1
+    }
+}
+```
+
+Below is an example response for 🧰  CIB Banking.&#x20;
+
+<pre class="language-json"><code class="lang-json"><strong>{
+</strong>    "data": {
+        "transactions": [
+            {
+                "AccountName": "ZAR 1900539687921 SmartRate Plus Notice 32",
+                "TransactionCode": "9",
+                "TransactionStatus": "approved",
+                "InvestmentDate": "0001-01-01T00:00:00",
+                "InvestmentDateUtc": "0001-01-01T00:00:00",
+                "InvestmentDateSa": "0001-01-01T01:52:00+01:52",
+                "InvestmentName": null,
+                "InvestmentStatus": null,
+                "RemainingTerm": null,
+                "InvestmentAmount": null,
+                "StatementId": "52292",
+                "InstantAccessBalance": null,
+                "BranchCode": null,
+                "AccountNumber": null,
+                "DistributionAccount": null,
+                "AccountType": null,
+                "PostDate": "0001-01-01T00:00:00",
+                "PostDateUtc": "0001-01-01T00:00:00",
+                "PostDateSa": "0001-01-01T01:52:00+01:52",
+                "Interest": null,
+                "AccruedInterest": null,
+                "MaturityDate": "0001-01-01T00:00:00",
+                "MaturityDateUtc": "0001-01-01T00:00:00",
+                "MaturityDateSa": "0001-01-01T01:52:00+01:52",
+                "BankName": null,
+                "CustomerReferenceId": "",
+                "BackOfficeReferenceId": "",
+                "CardNumber": "92974054603",
+                "TransactionId": "202304110000000000009",
+                "Reference": "DVfZ WT tmKkeb",
+                "Beneficiaries": {
+                    "LinkList": null,
+                    "Entities": {
+                        "EntityName": "aQaZUGJXQuCqxwJX JoYk ftvSWKWybWXPS OZVmxIq"
+                    }
+                },
+                "Description": "X bssSCS",
+                "Accounts": {
+                    "AccountId": 91974,
+                    "AccountNumber": "1900539687921"
+                },
+                "Currencies": {
+                    "CurrencyCode": "ZAR"
+                },
+                "CaptureDate": "2023-07-19T18:25:33.83Z",
+                "CaptureDateUtc": "2023-07-19T18:25:33.83Z",
+                "CaptureDateSa": "2023-07-19T20:25:33.83+02:00",
+                "ValueDate": "2023-07-19T18:25:33.83Z",
+                "ValueDateUtc": "2023-07-19T18:25:33.83Z",
+                "ValueDateSa": "2023-07-19T20:25:33.83+02:00",
+                "CardHolderName": "mj TgW VOGbTQo",
+                "AutoForwardProcessingDate": false,
+                "Amount": -130000000,
+                "Reference_1": "99162191",
+                "Reference_2": "",
+                "Reference_3": "MAECrNWJfonnjpifiJDlhUBtixrq kMHnf",
+                "Reference_4": null,
+                "Reference_5": null,
+                "Reference_8": "665",
+                "Reference_9": "gUDASgs t pwqHBeowNZBJwJkEGIMdEErHJXocDrXTfbeIRRjF srDkOAdOxUvfWnsCFhSZLKkxJ TyMlYXsoCDyP USlHaNRRMwItGdxJrP",
+                "Reference_10": "",
+                "RunningBalance": 19290794.77
+            },
+            {
+                "AccountName": "ZAR 1900539687921 SmartRate Plus Notice 32",
+                "TransactionCode": "10",
+                "TransactionStatus": "approved",
+                "InvestmentDate": "0001-01-01T00:00:00",
+                "InvestmentDateUtc": "0001-01-01T00:00:00",
+                "InvestmentDateSa": "0001-01-01T01:52:00+01:52",
+                "InvestmentName": null,
+                "InvestmentStatus": null,
+                "RemainingTerm": null,
+                "InvestmentAmount": null,
+                "StatementId": "52311",
+                "InstantAccessBalance": null,
+                "BranchCode": null,
+                "AccountNumber": null,
+                "DistributionAccount": null,
+                "AccountType": null,
+                "PostDate": "0001-01-01T00:00:00",
+                "PostDateUtc": "0001-01-01T00:00:00",
+                "PostDateSa": "0001-01-01T01:52:00+01:52",
+                "Interest": null,
+                "AccruedInterest": null,
+                "MaturityDate": "0001-01-01T00:00:00",
+                "MaturityDateUtc": "0001-01-01T00:00:00",
+                "MaturityDateSa": "0001-01-01T01:52:00+01:52",
+                "BankName": null,
+                "CustomerReferenceId": "",
+                "BackOfficeReferenceId": "",
+                "CardNumber": "",
+                "TransactionId": "202304300000000000010",
+                "Reference": "",
+                "Beneficiaries": {
+                    "LinkList": null,
+                    "Entities": {
+                        "EntityName": "hdPZPMq "
+                    }
+                },
+                "Description": "VpXcXPsq",
+                "Accounts": {
+                    "AccountId": 91974,
+                    "AccountNumber": "1900539687921"
+                },
+                "Currencies": {
+                    "CurrencyCode": "ZAR"
+                },
+                "CaptureDate": "2023-08-07T18:25:33.83Z",
+                "CaptureDateUtc": "2023-08-07T18:25:33.83Z",
+                "CaptureDateSa": "2023-08-07T20:25:33.83+02:00",
+                "ValueDate": "2023-08-07T18:25:33.83Z",
+                "ValueDateUtc": "2023-08-07T18:25:33.83Z",
+                "ValueDateSa": "2023-08-07T20:25:33.83+02:00",
+                "CardHolderName": "",
+                "AutoForwardProcessingDate": false,
+                "Amount": 1313801.71,
+                "Reference_1": "",
+                "Reference_2": "",
+                "Reference_3": "",
+                "Reference_4": null,
+                "Reference_5": null,
+                "Reference_8": "797",
+                "Reference_9": "vPqivetP",
+                "Reference_10": "",
+                "RunningBalance": 20604596.48
+            },
+            {
+                "AccountName": "ZAR 1900539687921 SmartRate Plus Notice 32",
+                "TransactionCode": "11",
+                "TransactionStatus": "approved",
+                "InvestmentDate": "0001-01-01T00:00:00",
+                "InvestmentDateUtc": "0001-01-01T00:00:00",
+                "InvestmentDateSa": "0001-01-01T01:52:00+01:52",
+                "InvestmentName": null,
+                "InvestmentStatus": null,
+                "RemainingTerm": null,
+                "InvestmentAmount": null,
+                "StatementId": "52342",
+                "InstantAccessBalance": null,
+                "BranchCode": null,
+                "AccountNumber": null,
+                "DistributionAccount": null,
+                "AccountType": null,
+                "PostDate": "0001-01-01T00:00:00",
+                "PostDateUtc": "0001-01-01T00:00:00",
+                "PostDateSa": "0001-01-01T01:52:00+01:52",
+                "Interest": null,
+                "AccruedInterest": null,
+                "MaturityDate": "0001-01-01T00:00:00",
+                "MaturityDateUtc": "0001-01-01T00:00:00",
+                "MaturityDateSa": "0001-01-01T01:52:00+01:52",
+                "BankName": null,
+                "CustomerReferenceId": "",
+                "BackOfficeReferenceId": "",
+                "CardNumber": "",
+                "TransactionId": "202305310000000000011",
+                "Reference": "",
+                "Beneficiaries": {
+                    "LinkList": null,
+                    "Entities": {
+                        "EntityName": "pZwWKoPA"
+                    }
+                },
+                "Description": " tqwoyld",
+                "Accounts": {
+                    "AccountId": 91974,
+                    "AccountNumber": "1900539687921"
+                },
+                "Currencies": {
+                    "CurrencyCode": "ZAR"
+                },
+                "CaptureDate": "2023-09-07T18:25:33.83Z",
+                "CaptureDateUtc": "2023-09-07T18:25:33.83Z",
+                "CaptureDateSa": "2023-09-07T20:25:33.83+02:00",
+                "ValueDate": "2023-09-08T18:25:33.83Z",
+                "ValueDateUtc": "2023-09-08T18:25:33.83Z",
+                "ValueDateSa": "2023-09-08T20:25:33.83+02:00",
+                "CardHolderName": "",
+                "AutoForwardProcessingDate": false,
+                "Amount": 1076307.1,
+                "Reference_1": "",
+                "Reference_2": "",
+                "Reference_3": "",
+                "Reference_4": null,
+                "Reference_5": null,
+                "Reference_8": "",
+                "Reference_9": " HT icGG",
+                "Reference_10": "",
+                "RunningBalance": 21680903.58
+            },
+            {
+                "AccountName": "ZAR 1900539687921 SmartRate Plus Notice 32",
+                "TransactionCode": "12",
+                "TransactionStatus": "approved",
+                "InvestmentDate": "0001-01-01T00:00:00",
+                "InvestmentDateUtc": "0001-01-01T00:00:00",
+                "InvestmentDateSa": "0001-01-01T01:52:00+01:52",
+                "InvestmentName": null,
+                "InvestmentStatus": null,
+                "RemainingTerm": null,
+                "InvestmentAmount": null,
+                "StatementId": "52372",
+                "InstantAccessBalance": null,
+                "BranchCode": null,
+                "AccountNumber": null,
+                "DistributionAccount": null,
+                "AccountType": null,
+                "PostDate": "0001-01-01T00:00:00",
+                "PostDateUtc": "0001-01-01T00:00:00",
+                "PostDateSa": "0001-01-01T01:52:00+01:52",
+                "Interest": null,
+                "AccruedInterest": null,
+                "MaturityDate": "0001-01-01T00:00:00",
+                "MaturityDateUtc": "0001-01-01T00:00:00",
+                "MaturityDateSa": "0001-01-01T01:52:00+01:52",
+                "BankName": null,
+                "CustomerReferenceId": "",
+                "BackOfficeReferenceId": "",
+                "CardNumber": "",
+                "TransactionId": "202306300000000000012",
+                "Reference": "",
+                "Beneficiaries": {
+                    "LinkList": null,
+                    "Entities": {
+                        "EntityName": "lAxjcVbg"
+                    }
+                },
+                "Description": "gLeRJPbl",
+                "Accounts": {
+                    "AccountId": 91974,
+                    "AccountNumber": "1900539687921"
+                },
+                "Currencies": {
+                    "CurrencyCode": "ZAR"
+                },
+                "CaptureDate": "2023-10-07T18:25:33.83Z",
+                "CaptureDateUtc": "2023-10-07T18:25:33.83Z",
+                "CaptureDateSa": "2023-10-07T20:25:33.83+02:00",
+                "ValueDate": "2023-10-08T18:25:33.83Z",
+                "ValueDateUtc": "2023-10-08T18:25:33.83Z",
+                "ValueDateSa": "2023-10-08T20:25:33.83+02:00",
+                "CardHolderName": "",
+                "AutoForwardProcessingDate": false,
+                "Amount": 1103322.74,
+                "Reference_1": "",
+                "Reference_2": "",
+                "Reference_3": "",
+                "Reference_4": null,
+                "Reference_5": null,
+                "Reference_8": "",
+                "Reference_9": "rIYXgXSU",
+                "Reference_10": "",
+                "RunningBalance": 22784226.32
+            }
+        ]
+    },
+    "links": {
+        "self": "https://openapisandbox.investec.com/za/bb/v1/accounts/91974/transactions"
+    },
+    "meta": {
+        "TotalCount": 4,
+        "TotalPages": 1,
+        "CurrentPage": 1,
+        "CurrentPageSize": 100,
+        "ResultCount": 4
+    }
+}
+</code></pre>
+
+{% hint style="info" %}
+**Pro Tip:** As you may have noticed, the endpoint accepts a pagination parameter for when you need to iterate through a longer transaction history.
+{% endhint %}
+
+[^1]: 
