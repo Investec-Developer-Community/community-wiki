@@ -6,14 +6,14 @@
 Before you begin, ensure you are enrolled for Investec Developer on your Private Banking or CIB account (see [Investec Developer self enrollment guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/self-enrollment-guide)).&#x20;
 {% endhint %}
 
-### Client ID, Client Secret and API keys
+### Client ID, client secret and API keys
 
 * To start using the Investec API, you must first get your credentials - your client ID and secret.&#x20;
 * In addition, you'll need to create an api key.
 * API keys specify the bank account you want to access via the API as well as which permissions or functionality you want to access (ie. I want to be able to access my transaction data, but don't want to be able to make payments).
 * We use a combination of your client ID, client secret and api key to authenticate your requests so that you can transact securely against your Investec account.&#x20;
 
-### Access your Client ID, Client secret and create new API keys
+### Access your client ID, client secret and create new API keys
 
 🏦 **Private Banking accounts**
 

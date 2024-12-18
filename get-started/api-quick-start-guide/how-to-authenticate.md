@@ -2,7 +2,7 @@
 
 {% embed url="https://www.loom.com/share/4c0281f1621a4fbb8886547bb38aa4ee" %}
 
-### **Authentication**&#x20;
+## **Authentication**&#x20;
 
 Before you go ahead and query the Investec banking API for things like account and transaction data, you will first need to authenticate.&#x20;
 
@@ -10,18 +10,7 @@ Before you go ahead and query the Investec banking API for things like account a
 * In response to the auth request you will receive a secure access token, called a **bearer token**, which needs to be used in all your API calls.&#x20;
 * **Bearer tokens are valid for 30 minutes and therefore need to be refreshed**.&#x20;
 
-### cURL Code Snippet
-
-```
-curl --location 'https://openapi.investec.com/identity/v2/oauth2/token' \
---header 'x-api-key: <<your api_key>>' \
---header 'Accept: application/json' \
---header 'Content-Type: application/x-www-form-urlencoded' \
---header 'Authorization: [[Authorization-masked-secret]]' \
---data-urlencode 'grant_type=client_credentials'
-```
-
-### **Using Postman**&#x20;
+## **Using Postman**&#x20;
 
 If you’re new to APIs and want to get familiar with using the endpoints, we recommend you create a Postman account (it's free) and use the Postman collections provided to test things out.
 
@@ -72,3 +61,14 @@ If your keys are valid, the response will contain the token and an expiration wh
 * Copy the bearer token and paste it into your environment variables  table so that you can use it in all your requests going forward.&#x20;
 * It needs to be given the designation bearer in requests&#x20;
 * Remember the bearer token is valid for 30 minutes, at which point you will need to request a new one by calling the same endpoint again.&#x20;
+
+## cURL code snippet
+
+```
+curl --location 'https://openapi.investec.com/identity/v2/oauth2/token' \
+--header 'x-api-key: <<your api_key>>' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'Authorization: [[Authorization-masked-secret]]' \
+--data-urlencode 'grant_type=client_credentials'
+```

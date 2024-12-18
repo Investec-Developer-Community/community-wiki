@@ -1,6 +1,6 @@
 # 🏦 How to get your account, balance, and transaction data
 
-### Account Information API
+## Account Information API
 
 The Account information API allows Investec clients access to their account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.
 
@@ -16,7 +16,7 @@ https://openapi.investec.com/za/pb/v1/accounts
 https://openapi.investec.com/za/bb/v1/accounts
 ```
 
-### **Using Postman**&#x20;
+## **Using Postman**&#x20;
 
 If you’re new to APIs and want to get familiar with using the endpoints, we recommend you create a Postman account (it's free) and use the Postman collections provided to test things out.
 
@@ -36,7 +36,7 @@ Follow these steps for 🏦 Private Banking and 🧰  CIB Banking, using the app
 4. The JSON response will include all of your accounts and each account has a unique ID (**accountID**) that you will use when transacting against it.&#x20;
 
 {% hint style="info" %}
-The Accounts query returns **accountID** and **account balance** for 🧰  CIB Banking.
+The Accounts query returns **accountID** and **account balance** for 🧰  CIB.
 {% endhint %}
 
 Below is an example response for 🏦 Private Banking
@@ -64,7 +64,7 @@ Below is an example response for 🏦 Private Banking
 }
 </code></pre>
 
-Below is an example response for 🧰  CIB Banking.&#x20;
+Below is an example response for 🧰  CIB.&#x20;
 
 ```json
 {
@@ -188,7 +188,7 @@ Below is an example response for 🧰  CIB Banking.&#x20;
 
 ### 2. Get your account balance with Postman
 
-Follow these steps for 🏦 Private Banking using the appropriate Postman collection and API endpoints as above. **The account balance for 🧰 CIB Banking is included in the Get Accounts request.**
+Follow these steps for 🏦 Private Banking using the appropriate Postman collection and API endpoints as above. **The account balance for 🧰 CIB is included in the Get Accounts request.**
 
 1. Retrieve the accountID from your previous call to get accounts.
 2. Head over to the "Variables" table to insert your accountID.&#x20;
@@ -220,7 +220,7 @@ Below is an example response for 🏦 Private Banking
 
 ### 3. Get your transaction data with Postman&#x20;
 
-Follow these steps for 🏦 Private Banking and 🧰 CIB Banking, using the appropriate Postman collection and API endpoints as above.&#x20;
+Follow these steps for 🏦 Private Banking and 🧰 CIB, using the appropriate Postman collection and API endpoints as above.&#x20;
 
 1. Ensure you have added your accountID to the "Variables" table&#x20;
 2. Navigate to the **GET Account transactions** query and set the dates for which you would like to the transactions by selecting **fromDate** and **toDate** in the **Query params table** and adding the dates.&#x20;
@@ -556,7 +556,57 @@ Below is an example response for 🧰  CIB Banking.&#x20;
 </code></pre>
 
 {% hint style="info" %}
-**Pro Tip:** As you may have noticed, the endpoint accepts a pagination parameter for when you need to iterate through a longer transaction history.
+**Pro Tips:**
+
+* You may have noticed, the endpoint accepts a pagination parameter for when you need to iterate through a longer transaction history.
+* Filtering can be done using the **postingdate**
+  * **postingdate** is the date at which the transaction affects your balance
+  * **transactiondate** is the date on which the transaction took place (day the card was physically swiped)
 {% endhint %}
+
+
+
+## **cuRL code snippets**
+
+### 🏦 **Private Banking**
+
+#### Get accounts and accountID&#x20;
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts' \
+--header 'Accept: application/json'
+```
+
+#### Get account balance
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts//balance' \
+--header 'Accept: application/json'
+```
+
+#### Get transaction data
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts//transactions' \
+--header 'Accept: application/json'
+```
+
+### 🧰 **CIB**&#x20;
+
+#### Get accounts,  accountID and account balance&#x20;
+
+```
+curl --location 'https://openapi.investec.com/za/bb/v1/accounts' \
+--header 'Accept: application/json' \
+--header 'Authorization: [[Authorization-masked-secret]]'
+```
+
+#### Get transaction data
+
+```
+curl --location 'https://openapi.investec.com/za/bb/v1/accounts/<<account id>>/transactions?fromDate=2023-01-01&toDate=2023-01-31' \
+--header 'Accept: application/json' \
+--header 'Authorization: [[Authorization-masked-secret]]'
+```
 
 [^1]: 
