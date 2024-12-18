@@ -1,16 +1,68 @@
-# 💸 How to make a payment
+# 💸 How to make transfers and payments
 
 {% embed url="https://www.loom.com/share/733e3023bc8844e186e1752134570527" %}
 
-In addition to retrieving historical data from your account, the Investec 🏦 Private Banking API allows you to programmatically make payments to beneficiaries on your account. This functionality is not yet available on the 🧰 CIB API.
-
-Let’s explore how to make a payment to an existing beneficiary on your account using the community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0).
+The **Account information API** also allows Investec clients to perform actions against their account programmatically (not just read-only). This includes transferring money between your accounts and paying money to beneficiaries. &#x20;
 
 {% hint style="info" %}
-**Pro-Tip:** You can only make programmatic payments to beneficiaries that have been paid at least once before with regular online banking from your account.
+Transfers and payments are currently only available for 🏦 Private Banking account holders.&#x20;
 {% endhint %}
 
-As with accounts, every beneficiary on your banking profile also has a unique ID. You can retrieve the list of beneficiaries from the following endpoint: https://openapi.investec.com/za/pb/v1/accounts/beneficiaries. Again, you use a bearer token for authentication as with all API requests to the Investec API, and a typical response has the following structure:
+## **Using Postman**&#x20;
+
+If you’re new to APIs and want to get familiar with using the endpoints, we recommend you create a Postman account (it's free) and use the Postman collections provided to test things out.
+
+{% hint style="info" %}
+[**Investec Programmable Banking Postman Collection**](https://www.postman.com/investec-open-api/programmable-banking/overview)
+{% endhint %}
+
+### 1. Make a transfer
+
+1. [Retrieve a list of your accounts and their accountIDs](how-to-get-your-transaction-history.md#id-1.-get-your-accounts-and-account-id-with-postman)
+2. &#x20;Take note of the **accountID** that you would like to make the transfer to.
+3. Navigate to the **Accounts folder** and **POST transfer multiple query.**
+4. Head over to the "Variables" table to insert your **accountID - this is the account from which you would like to make the transfer.** You can also set it under the Params tab on the query page.
+5. Navigate to the **Body** tab and enter a value into each field. Here you will see that each transfer is defined by four key fields
+   1. **beneficiaryAccountID -** this is the account where the funds will transfer to
+   2. **amount** - the amount to pay in ZAR
+   3. **myReference** - reference displayed on your transaction description
+   4. **theirReference** - reference displayed on the recipients statement
+
+```json
+{
+    "transferList": [
+        {
+            "beneficiaryAccountId": "3353431574710166878182963",
+            "amount": "10", 
+            "myReference": "API transfer",
+            "theirReference": "API transfer"
+        }
+    ] 
+}
+```
+
+6. Hit **Send** to make a call to the API endpoint.
+
+<pre><code><strong>https://openapi.investec.com//za/pb/v1/accounts/:accountId/transfermultiple
+</strong></code></pre>
+
+### 2. Make a payment
+
+{% hint style="info" %}
+**You can only make programmatic payments to beneficiaries that have been created and paid at least once before from your account with regular online banking. Beneficiary payments are limited to R20 000.00.**
+{% endhint %}
+
+1. Retrieve your list of beneficiaries by navigating to the **Beneficiaries** folder and the **GET Beneficiaries query**.&#x20;
+2. Ensure you have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
+3. Hit **Send** to make a call to the API endpoint (no additional parameters need to be set).&#x20;
+
+```
+https://openapi.investec.com/za/pb/v1/accounts/beneficiaries
+```
+
+4. Take note of the **beneficiaryID** of the beneficiary that you would like to make the payment to.&#x20;
+
+Below is an example response for 🏦 Private Banking
 
 ```json
 {
@@ -41,11 +93,17 @@ As with accounts, every beneficiary on your banking profile also has a unique ID
 }
 ```
 
-The [Postman Collection](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) has a request for this named Beneficiaries (in the Beneficiaries folder)
+{% hint style="info" %}
+Payment notifications will go out to the listed "cellNo" and "emailaddress" of the beneficiary. If these are null, then no notification will be sent.
+{% endhint %}
 
-Now that you have a beneficiary ID, let’s make a small payment to them. For that, we’ll be using https://openapi.investec.com/za/pb/v1/accounts/{accountId}/paymultiple.
-
-The endpoint receives an array list of payments, as it’s able to process multiple payments at one point. Payments are easily defined and have four key fields:
+5. Navigate to **Beneficiaries** folder and the **POST Beneficiary payment query.** The endpoint can receive an array list of payment and is therefore able to process multiple payments at one point.&#x20;
+6. Head over to the "Variables" table to insert your **accountID - this is the account from which you would like to make the payment.** You can also set it under the Params tab on the query page.
+7. Navigate to the **Body** tab and enter a value into each field. Here you will see that each payment is defined by four key fields
+   1. **beneficiaryID -** this is the account to which you want to make the payment
+   2. **amount** - the amount to pay in ZAR
+   3. **myReference** - reference displayed on your transaction description
+   4. **theirReference** - reference displayed on the recipients statement
 
 ```json
 {
@@ -60,6 +118,63 @@ The endpoint receives an array list of payments, as it’s able to process multi
 }
 ```
 
-The [Postman collection](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) has a Beneficiary Payment request you can use to try this out for yourself.
+5. Hit **Send** to make a call to the API endpoint.&#x20;
 
-As you will see, you have full programmatic control of the process and it does not require additional manual verification.
+```
+https://openapi.investec.com/za/pb/v1/accounts/{accountId}/paymultiple
+```
+
+## cURL code snippets
+
+#### Get beneficiaries
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts/beneficiaries' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json'
+```
+
+#### Get beneficiary categories
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts/beneficiarycategories' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json'
+```
+
+#### **Make a transfer**&#x20;
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts//transfermultiple' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "transferList": [
+        {
+            "beneficiaryAccountId": "3353431574710166878182963", 
+            "amount": "10", 
+            "myReference": "API transfer", 
+            "theirReference": "API transfer" 
+        }
+    ] 
+}'
+```
+
+#### Make a payment
+
+```
+curl --location 'https://openapi.investec.com/za/pb/v1/accounts//paymultiple' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "paymentList": [
+        {
+            "beneficiaryId": "{{beneficiaryId}}", 
+            "amount": "10", 
+            "myReference": "API demo", 
+            "theirReference": "API demo2" 
+        }
+    ]
+}'
+```
+

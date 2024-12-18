@@ -1,20 +1,6 @@
 # 🏦 How to get your account, balance, and transaction data
 
-## Account Information API
-
-The Account information API allows Investec clients access to their account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.
-
-🏦 **Private Banking account information API endpoint**
-
-```
-https://openapi.investec.com/za/pb/v1/accounts
-```
-
-🧰 **CIB account account information API endpoint**
-
-```
-https://openapi.investec.com/za/bb/v1/accounts
-```
+The **Account information API** allows Investec clients access to their account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.&#x20;
 
 ## **Using Postman**&#x20;
 
@@ -23,21 +9,27 @@ If you’re new to APIs and want to get familiar with using the endpoints, we re
 {% hint style="info" %}
 [**Investec Programmable Banking Postman Collection**](https://www.postman.com/investec-open-api/programmable-banking/overview)
 
-It includes collections for the 🏦 Private Banking, 🧰  Corporate Investment Banking and 💳Programmable card APIs.
+It includes collections for the 🏦 Private Banking, 🧰  Corporate Investment Banking (CIB) and 💳Programmable card APIs.
 {% endhint %}
 
 ### 1. Get your accounts and account ID with Postman&#x20;
 
-Follow these steps for 🏦 Private Banking and 🧰  CIB Banking, using the appropriate Postman collection and API endpoints as above.&#x20;
+Follow these steps for 🏦 Private Banking and 🧰  CIB, using the appropriate Postman collection and API endpoints as above.&#x20;
 
 1. Navigate to the **Accounts** folder and the **GET Accounts** **query**
 2. Ensure you have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
-3. Hit **Send** to make a call to the account information API endpoint as shown above (no additional parameters need to be set).&#x20;
-4. The JSON response will include all of your accounts and each account has a unique ID (**accountID**) that you will use when transacting against it.&#x20;
+3. Hit **Send** to make a call to the account information API endpoint (no additional parameters need to be set).&#x20;
+
+```
+🏦 https://openapi.investec.com/za/pb/v1/accounts
+🧰 https://openapi.investec.com/za/bb/v1/accounts
+```
 
 {% hint style="info" %}
-The Accounts query returns **accountID** and **account balance** for 🧰  CIB.
+The Accounts query will returns **accountID** as well as **account balance** for 🧰  CIB.
 {% endhint %}
+
+The JSON response will include all of your accounts and each account has a unique ID (**accountID**) that you will use when transacting against it.&#x20;
 
 Below is an example response for 🏦 Private Banking
 
@@ -191,7 +183,7 @@ Below is an example response for 🧰  CIB.&#x20;
 Follow these steps for 🏦 Private Banking using the appropriate Postman collection and API endpoints as above. **The account balance for 🧰 CIB is included in the Get Accounts request.**
 
 1. Retrieve the accountID from your previous call to get accounts.
-2. Head over to the "Variables" table to insert your accountID.&#x20;
+2. Head over to the "Variables" table to insert your accountID. You can also set it under the Params tab on the query page.&#x20;
 3. Navigate to the **Get Account Balance query** under the **Accounts** folder
 4. Hit **Send** to make a call to the API endpoint.
 
@@ -563,8 +555,6 @@ Below is an example response for 🧰  CIB Banking.&#x20;
   * **postingdate** is the date at which the transaction affects your balance
   * **transactiondate** is the date on which the transaction took place (day the card was physically swiped)
 {% endhint %}
-
-
 
 ## **cuRL code snippets**
 

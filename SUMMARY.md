@@ -13,7 +13,7 @@
   * [🔑 How to create your API keys](get-started/api-quick-start-guide/how-to-get-your-api-keys.md)
   * [👤 How to authenticate against the Investec API](get-started/api-quick-start-guide/how-to-authenticate.md)
   * [🏦 How to get your account, balance, and transaction data](get-started/api-quick-start-guide/how-to-get-your-transaction-history.md)
-  * [💸 How to make a payment](get-started/api-quick-start-guide/how-to-make-a-payment.md)
+  * [💸 How to make transfers and payments](get-started/api-quick-start-guide/how-to-make-a-payment.md)
 * [Programmable card quick start guide](get-started/card-quick-start-guide/README.md)
   * [🙌 How to activate your programmable card](get-started/card-quick-start-guide/how-to-activate-your-card-for-programmable-banking.md)
   * [🚀 How to use low-code card snippets](get-started/card-quick-start-guide/how-to-use-low-code-card-snippets.md)
