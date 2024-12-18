@@ -5,11 +5,11 @@ Need a boost with your Programmable Banking business integration?\
 Check out our list of community whizzes and freelancers ready to help! 🤩
 {% endhint %}
 
-This is your go-to spot to find some really cool folks from our community who **know a thing or two about Programmable Banking**. They've been in the trenches, worked on their own projects, and **they're ready to lend a hand with your Programmable Banking integration**. Let's meet them!
+This is your go-to spot to find some cool folks from our community who **know a thing or two about Programmable Banking**. They've been in the trenches, worked on their own projects, and **they're ready to lend a hand with your Programmable Banking integration**. Let's meet them!
 
 ### The Pros
 
-Our community is a melting pot of talents in all sorts of programming languages and tech, each bringing a unique twist to Programmable Banking. Here are the people that can help turn your integration headaches into high-fives: 🙌
+Our community is a melting pot of talents in all sorts of programming languages and tech, each bringing a unique twist to Programmable Banking. Here are the people who can help turn your integration headaches into high-fives: 🙌
 
 <table><thead><tr><th width="124">Name</th><th width="147">Proficiency</th><th>Expertise</th><th width="178">Latest Project</th><th>Contact</th></tr></thead><tbody><tr><td><a href="https://github.com/GoosenA">Anri Goosen</a></td><td>Python, API integration, GitHub, Postman, Atlassian</td><td>Python integration, Google Cloud</td><td><a href="https://pypi.org/project/investec-openapi-wrapper/">Investec OpenAPI Python wrapper</a></td><td><a href="https://www.linkedin.com/in/anri-goosen-06274385/">LinkedIn</a></td></tr><tr><td><a href="https://github.com/barrymichaeldoyle">Barry Michael Doyle</a></td><td>ReactJS, TypeScript, JavaScript</td><td>UI/UX Development, User-Centric Design</td><td><a href="https://github.com/barrymichaeldoyle/investec-openapi">Investec API JavaScript/TypeScript wrapper</a></td><td><a href="https://www.linkedin.com/in/barry-michael-doyle-11369683/">LinkedIn</a></td></tr><tr><td><a href="https://github.com/devinpearson">Devin Pearson</a></td><td>Rust, PHP, JavaScript, API integration</td><td>API features, Error handling</td><td><a href="https://github.com/devinpearson/programmable-banking-sim">Investec Programmable Banking Open API Simulator</a></td><td><a href="https://www.linkedin.com/in/pearsondevin/">LinkedIn</a></td></tr><tr><td><a href="https://github.com/dominicsanto">Dominic Santo</a></td><td>Javascript, Ruby On Rails, React, Vue, C#</td><td>Private Banking API features and use.</td><td><a href="https://github.com/dominicsanto/card-notifier">Investec Card-notifier</a></td><td><a href="https://www.codexpress.co/">Website</a></td></tr><tr><td><a href="https://github.com/nikspyratos/">Nik Spyratos</a></td><td>PHP - Laravel, specialising in payments</td><td>API usage</td><td><a href="https://github.com/nikspyratos/investec-sdk-php">Investec SDK for PHP</a></td><td><a href="https://www.nik.software/">Website</a></td></tr></tbody></table>
 
@@ -19,7 +19,7 @@ Thinking about reaching out to one of our community members? Great! They're offe
 
 ### Show Off Your Skills
 
-Been busy in our Programmable Banking Community and built something cool? Awesome! **Why not join this list and share your smarts?** 👉 [Email us](mailto:developercomunnity@investec.com) with your deets and focus area and get ready to take centre stage!
+Been busy in our Programmable Banking Community and built something cool? Awesome! **Why not join this list and share your smarts?** 👉 [Fill out this quick form](https://forms.office.com/r/ZiBpbMKUpg) with your deets and focus area, and get ready to take centre stage!
 
 ### Need a Hand?
 
