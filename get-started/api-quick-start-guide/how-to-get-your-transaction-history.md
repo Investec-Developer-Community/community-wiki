@@ -31,7 +31,9 @@ The Accounts query will returns **accountID** as well as **account balance** for
 
 The JSON response will include all of your accounts and each account has a unique ID (**accountID**) that you will use when transacting against it.&#x20;
 
-Below is an example response for 🏦 Private Banking
+<details>
+
+<summary>Example response for 🏦 Private Banking</summary>
 
 <pre class="language-json"><code class="lang-json"><strong>{
 </strong>  "data": {
@@ -56,7 +58,11 @@ Below is an example response for 🏦 Private Banking
 }
 </code></pre>
 
-Below is an example response for 🧰  CIB.&#x20;
+</details>
+
+<details>
+
+<summary>Example response for 🧰  CIB</summary>
 
 ```json
 {
@@ -178,6 +184,8 @@ Below is an example response for 🧰  CIB.&#x20;
 }
 ```
 
+</details>
+
 ### 2. Get your account balance with Postman
 
 Follow these steps for 🏦 Private Banking using the appropriate Postman collection and API endpoints as above. **The account balance for 🧰 CIB is included in the Get Accounts request.**
@@ -191,7 +199,9 @@ Follow these steps for 🏦 Private Banking using the appropriate Postman collec
 🏦  https://openapi.investec.com/za/pb/v1/accounts/:accountId/balance
 ```
 
-Below is an example response for 🏦 Private Banking
+<details>
+
+<summary>Example response for 🏦 Private Banking</summary>
 
 ```json
 {
@@ -210,6 +220,8 @@ Below is an example response for 🏦 Private Banking
 }
 ```
 
+</details>
+
 ### 3. Get your transaction data with Postman&#x20;
 
 Follow these steps for 🏦 Private Banking and 🧰 CIB, using the appropriate Postman collection and API endpoints as above.&#x20;
@@ -223,7 +235,9 @@ Follow these steps for 🏦 Private Banking and 🧰 CIB, using the appropriate 
 </strong>🧰  https://openapi.investec.com/za/bb/v1/accounts/:accountId/transactions?fromDate=2023-01-01&#x26;toDate=2023-01-31
 </code></pre>
 
-Below is an example response for 🏦 Private Banking
+<details>
+
+<summary>Example response for 🏦 Private Bank</summary>
 
 ```json
 {
@@ -271,7 +285,11 @@ Below is an example response for 🏦 Private Banking
 }
 ```
 
-Below is an example response for 🧰  CIB Banking.&#x20;
+</details>
+
+<details>
+
+<summary>Example response for 🧰  CIB</summary>
 
 <pre class="language-json"><code class="lang-json"><strong>{
 </strong>    "data": {
@@ -546,6 +564,8 @@ Below is an example response for 🧰  CIB Banking.&#x20;
     }
 }
 </code></pre>
+
+</details>
 
 {% hint style="info" %}
 **Pro Tips:**

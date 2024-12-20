@@ -62,7 +62,9 @@ https://openapi.investec.com/za/pb/v1/accounts/beneficiaries
 
 4. Take note of the **beneficiaryID** of the beneficiary that you would like to make the payment to.&#x20;
 
-Below is an example response for 🏦 Private Banking
+<details>
+
+<summary>Example response for 🏦 Private Banking</summary>
 
 ```json
 {
@@ -92,6 +94,8 @@ Below is an example response for 🏦 Private Banking
   }
 }
 ```
+
+</details>
 
 {% hint style="info" %}
 Payment notifications will go out to the listed "cellNo" and "emailaddress" of the beneficiary. If these are null, then no notification will be sent.
