@@ -1,20 +1,35 @@
-# 💳 How to use the Cards API
+# 💳 How to use the programmable card API
 
-There is a community-contributed [**Postman Collection**](https://god.gw.postman.com/run-collection/26868804-00260d55-0009-42ee-b148-d439992e64ff?action=collection%2Ffork\&collection-url=entityId%3D26868804-00260d55-0009-42ee-b148-d439992e64ff%26entityType%3Dcollection%26workspaceId%3D905c2bab-81a1-4297-8b70-2456c776a7a0) that we recommend you fork as you follow along in the guide.
+The **Programmable Card API** allows Investec clients to access programmable card functionality via an API. The features available via the online IDE are also available via the API. &#x20;
 
-In order to use the API, please refer to the [following guide](../api-quick-start-guide/how-to-get-your-api-keys.md) to get your API Keys and to familiarise yourself with the Authentication process.
+## **Using Postman**&#x20;
 
-After you have authenticated your API access in Postman, use the following card endpoints:
+If you’re new to APIs and want to get familiar with using the endpoints, we recommend you create a Postman account (it's free) and use the Postman collections provided to test things out.
+
+{% hint style="info" %}
+[**Investec Programmable Banking Postman Collection**](https://www.postman.com/investec-open-api/programmable-banking/overview)
+{% endhint %}
+
+Once you’ve signed up for an account, head over to these collections and make sure you **fork the Programmable Card API collection.**
+
+Before querying the API, ensure that you have authenticated: [How to authenticate against the Investec AP](../api-quick-start-guide/how-to-authenticate.md)I
+
+### 1. Get your cards with Postman
+
+_This will return all the cards associated with your account._&#x20;
+
+1. Navigate to the **Card** folder and the **GET Cards query.**&#x20;
+2. Hit **Send** to make a call to the API endpoint.
+
+```
+https://openapi.investec.com/za/v1/cards
+```
+
+3. Take note of the **cardkey** value that is returned. When deploying custom code to your card, you will need to use this variable.&#x20;
 
 <details>
 
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f4b3">💳</span> Get Cards</summary>
-
-The first step is to call the `GetCards` endpoint. This endpoint returns all the cards associated with a user's account.
-
-**ProTip:** When deploying custom code to a given card, you will need to use the `cardkey` variable that is returned from the Get Cards response.
-
-**Example Response**
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f4b3">💳</span> GET Cards example response</summary>
 
 ```json
 {
@@ -43,15 +58,13 @@ The first step is to call the `GetCards` endpoint. This endpoint returns all the
 
 </details>
 
-<details>
+### 2. Update function code on your card with Postman
 
-<summary>↪️ Update Function Code</summary>
+_This will **save** code your card without publishing it._&#x20;
 
-To update the code on your card, we use the `UpdateFunctionCode` endpoint which saves the code to your card (it doesn’t publish it). Replace the `cardkey` attribute in the URL on this endpoint with the `cardkey` variable from the `GetCards` endpoint of the card that you would like the code to be on.
-
-<img src="https://lh4.googleusercontent.com/bsPNyNw5xAZkmiVafHkVGGm-knX8qH2VJ6dO2FHiSL8rUXhtBZwRMGwfMDZ5wTeHgzwkyI89sUFVynC9pQSs1-bW9F-sdW80kTDc1mmGqu_k9x8N3L7c1dSfu39S5T-Le4NX0ovAAjRw0EqkZK4W7Po" alt="" data-size="original">
-
-Replace the body of the request with the following:
+1. Navigate to the **Card** folder and the **POST Update Function code query.**&#x20;
+2. Insert your **cardkey** variable from the previous query under the Params tab on the query page.&#x20;
+3. Replace the body of the request with the code you would like. Below is an example for you to use. The snippet declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.&#x20;
 
 {% code overflow="wrap" %}
 ````json
@@ -63,9 +76,16 @@ Replace the body of the request with the following:
 ````
 {% endcode %}
 
-The above snippet declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit
+4. Hit **Send** to make a call to the API endpoint.
 
-Once you are satisfied with the code, click the send button to update the code onto your card. When your response is successful you should receive the following:
+<pre><code><strong>https://openapi.investec.com/za/v1/cards/:cardkey/code
+</strong></code></pre>
+
+5. The **codeID** returned from the response is uniquely generated every time you post/save code to your card, which you will need for your next API call.
+
+<details>
+
+<summary>↪️ Update Function Code example response</summary>
 
 ```json
 {
@@ -88,28 +108,30 @@ Once you are satisfied with the code, click the send button to update the code o
 }
 ```
 
-The `codeid` returned from the response is uniquely generated every time you post code to your card, which you will need for your next API call.
-
-**Pro-Tip:** this endpoint does not actually publish the code, we will do this in the next step.
-
 </details>
+
+### 3. Publish code to your card using Postman&#x20;
+
+_This will **publish and activate** the code you have saved to your card._&#x20;
+
+1. Navigate to the **Card** folder and the **POST Publish Saved Code query.**&#x20;
+2. Insert your **cardkey** variable from the previous query under the Params tab on the query page.&#x20;
+3. Replace the body of the code with the following as seen below. Make sure you use the **codeID** from your previous query.&#x20;
+
+<pre class="language-json"><code class="lang-json">{
+<strong>   "codeid": "d11bd10e-7cba-1f11-a111-c11e11a1e111",
+</strong>   "code": ""
+}
+</code></pre>
+
+4. Hit **Send** to make a call to the API
+
+<pre><code><strong>https://openapi.investec.com/za/v1/cards/:cardkey/publish
+</strong></code></pre>
 
 <details>
 
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f468-1f4bb">👨‍💻</span> Publish Saved Code</summary>
-
-The `PublishSavedCod`endpoint will publish the code to the specified card and activate it.
-
-We first replace the `cardkey` variable in the URL for the card that you want to publish the code to and replace the body of the request with the following:
-
-```json
-{
-   "codeid": "d11bd10e-7cba-1f11-a111-c11e11a1e111",
-   "code": ""
-}
-```
-
-**Example Response**
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f468-1f4bb">👨‍💻</span> Publish Saved Code example response</summary>
 
 ```json
 {
@@ -132,15 +154,15 @@ We first replace the `cardkey` variable in the URL for the card that you want to
 }
 ```
 
-**Pro-Tip:** The above response will match the code and `codeid` sent to the card.
-
 </details>
 
-<details>
+### 4. Simulate a transaction using Postman&#x20;
 
-<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f911">🤑</span> Simulate a transaction</summary>
+_This will run a simulation of your code for testing before you publish code._
 
-You will use the `ExecuteFunctionCode` endpoint for testing your code before publishing it onto the card itself. Replace the `cardkey` variable in the URL with the correct `cardkey` you would like to simulate the transaction on. Then replace the body with the following:
+1. Navigate to he **Card** folder and the **POST Execute Function Code query.**&#x20;
+2. Insert your **cardkey** variable from the previous query under the Params tab on the query page.&#x20;
+3. Replace the body of the code with the code you want to simulate. The below code snippet simulates and declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.
 
 ```json
 {
@@ -154,10 +176,65 @@ You will use the `ExecuteFunctionCode` endpoint for testing your code before pub
 }
 ```
 
-The above snippet simulates and declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.
+4. Hit **Send** to make a call to the API
 
-<img src="https://lh4.googleusercontent.com/Npq2CiY9_IcoOga_B0Qx4k-LF-5PvGcarJc0glvphtFxNsmuZ7Wx3Iba9qrgqAit1ND1XK7W1P8bi1XKzFZByS95wdGtz5qNB1YD5W_HO0mH7R8vGsnRHI8izAtrlhaDEFusDX1TJC4PREGKm7gSbuA" alt="" data-size="original">
+```
+https://openapi.investec.com/za/v1/cards/:cardkey/code/execute
+```
 
-As you can see by the response, the code fails the simulated transaction
+<details>
+
+<summary><span data-gb-custom-inline data-tag="emoji" data-code="1f911">🤑</span> Simulate a transaction example response</summary>
+
+
 
 </details>
+
+### cURL code snippets
+
+#### Get cards
+
+```
+curl --location 'https://openapi.investec.com/za/v1/cards' \
+--header 'Accept: application/json'
+```
+
+#### Update function code
+
+```
+curl --location 'https://openapi.investec.com/za/v1/cards//code' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "code": "// This function runs during the card transaction authorization flow.\n// It has a limited execution time, so keep any code short-running.\nconst beforeTransaction = async (authorization) => {\n    console.log(authorization);\n    return true;\n};\n\n// This function runs after a transaction.\nconst afterTransaction = async (transaction) => {\n    console.log(transaction)\n};\n\n// This function runs after a transaction.\nconst afterDecline = async (transaction) => {\n    console.log(transaction)\n};"
+}'
+```
+
+#### Publish code
+
+```
+curl --location 'https://openapi.investec.com/za/v1/cards//publish' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "codeid": "2d73122b-8beb-4faa-8256-0228ec811f72",
+    "code": " "
+}'
+```
+
+#### Simulate a transaction&#x20;
+
+```
+curl --location 'https://openapi.investec.com/za/v1/cards//code/execute' \
+--header 'Accept: application/json' \
+--header 'Content-Type: application/json' \
+--data '{
+    "simulationcode": "// This function runs during the card transaction authorization flow.\n// It has a limited execution time, so keep any code short-running.\nconst beforeTransaction = async (authorization) => {\n    console.log(authorization);\n    return true;\n};\n\n// This function runs after a transaction.\nconst afterTransaction = async (transaction) => {\n    console.log(transaction)\n};\n\n// This function runs after a transaction.\nconst afterDecline = async (transaction) => {\n    console.log(transaction)\n};",
+    "centsAmount": "10100",
+    "currencyCode": "zar",
+    "merchantCode": 7996,
+    "merchantName": "USkaka",
+    "merchantCity": "Durban",
+    "countryCode": "ZA"
+}'
+```

@@ -1,6 +1,8 @@
-# 🖥️ How to add code to your card
+# 🖥️ How to add code to your card using the online IDE
 
 {% embed url="https://www.loom.com/share/d7f710df6e4e4b00b4cc7967907829ce" %}
+
+1. Navigate to the&#x20;
 
 There are three main functions that can be used to execute custom functionality on your card:
 

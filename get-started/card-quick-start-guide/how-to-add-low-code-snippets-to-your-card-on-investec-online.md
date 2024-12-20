@@ -1,6 +1,8 @@
-# 🚀 How to use low-code card snippets
+# 🚀 How to add low-code snippets to your card on Investec Online
 
-If you're not confident with coding yet, we've got you covered. There are 3 different card code snippets to choose from, which can be added to your programmable card at the click of a button.&#x20;
+If you're not confident with coding yet, we've got you covered.&#x20;
+
+There are 3 different card code snippets to choose from, which can be added to your programmable card at the click of a button.&#x20;
 
 1. Navigate to the Investec Developer homepage by clicking on **“Manage”**, followed by **“Investec Developer”**.&#x20;
 
@@ -18,8 +20,11 @@ If you're not confident with coding yet, we've got you covered. There are 3 diff
 
     The steps are the same for each code snippet. For the purpose of this guide, we'll use the "Update transaction limit" code snippet. **Click on the tile.**
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 152406 (1) (1).png" alt=""><figcaption></figcaption></figure>
-4. You will be taken to the programmable card screen. Ensure your card is enabled by toggling the button. **Click on the card to view the code snippet.**&#x20;
+
+
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 152406 (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+3. You will be taken to the programmable card screen. Ensure your card is enabled by toggling the button. **Click on the card to view the code snippet.**&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 152759.png" alt=""><figcaption></figcaption></figure>
 

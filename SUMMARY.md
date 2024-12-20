@@ -16,10 +16,10 @@
   * [💸 How to make transfers and payments](get-started/api-quick-start-guide/how-to-make-a-payment.md)
 * [Programmable card quick start guide](get-started/card-quick-start-guide/README.md)
   * [🙌 How to activate your programmable card](get-started/card-quick-start-guide/how-to-activate-your-card-for-programmable-banking.md)
-  * [🚀 How to use low-code card snippets](get-started/card-quick-start-guide/how-to-use-low-code-card-snippets.md)
-  * [🖥️ How to add code to your card](get-started/card-quick-start-guide/how-to-add-code-to-your-card.md)
-  * [💰 How to simulate a transaction](get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)
-  * [💳 How to use the Cards API](get-started/card-quick-start-guide/how-to-use-the-cards-api.md)
+  * [🚀 How to add low-code snippets to your card on Investec Online](get-started/card-quick-start-guide/how-to-add-low-code-snippets-to-your-card-on-investec-online.md)
+  * [🖥️ How to add code to your card using the online IDE](get-started/card-quick-start-guide/how-to-add-code-to-your-card.md)
+  * [💰 How to simulate a transaction using the online IDE](get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)
+  * [💳 How to use the programmable card API](get-started/card-quick-start-guide/how-to-use-the-cards-api.md)
 * [Sample apps](get-started/sample-apps.md)
 
 ## ⚒️ Get Building
