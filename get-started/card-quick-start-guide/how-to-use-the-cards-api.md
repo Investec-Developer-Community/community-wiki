@@ -1,6 +1,6 @@
 # 💳 How to use the programmable card API
 
-The **Programmable Card API** allows Investec clients to access programmable card functionality via an API. The features available via the online IDE are also available via the API. &#x20;
+The **Programmable Card API** allows you to access programmable card functionality via an API. The features available via the online IDE are also available via the API. &#x20;
 
 ## **Using Postman**&#x20;
 
@@ -64,7 +64,7 @@ _This will **save** code your card without publishing it._&#x20;
 
 1. Navigate to the **Card** folder and the **POST Update Function code query.**&#x20;
 2. Insert your **cardkey** variable from the previous query under the Params tab on the query page.&#x20;
-3. Replace the body of the request with the code you would like. Below is an example for you to use. The snippet declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.&#x20;
+3. Replace the body of the request with the code you would like. Below is an example for you to use. The snippet declines card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.&#x20;
 
 {% code overflow="wrap" %}
 ````json
@@ -160,9 +160,9 @@ _This will **publish and activate** the code you have saved to your card._&#x20;
 
 _This will run a simulation of your code for testing before you publish code._
 
-1. Navigate to he **Card** folder and the **POST Execute Function Code query.**&#x20;
+1. Navigate to the **Card** folder and the **POST Execute Function Code query.**&#x20;
 2. Insert your **cardkey** variable from the previous query under the Params tab on the query page.&#x20;
-3. Replace the body of the code with the code you want to simulate. The below code snippet simulates and declines a card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.
+3. Replace the body of the code with the code you want to simulate. The below code snippet simulates and declines card purchases that are made in bakeries (using a specified merchant code) transactions and that are over the R50 (or 5000 cents) limit.
 
 ```json
 {

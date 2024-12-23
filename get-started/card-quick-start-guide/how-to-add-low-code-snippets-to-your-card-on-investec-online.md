@@ -1,8 +1,6 @@
 # 🚀 How to add low-code snippets to your card on Investec Online
 
-If you're not confident with coding yet, we've got you covered.&#x20;
-
-There are 3 different card code snippets to choose from, which can be added to your programmable card at the click of a button.&#x20;
+If you're not confident with coding yet, there are 3 different card code snippets to choose from, which can be added to your programmable card at the click of a button.&#x20;
 
 1. Navigate to the Investec Developer homepage by clicking on **“Manage”**, followed by **“Investec Developer”**.&#x20;
 

@@ -10,7 +10,7 @@ The **Investec Online IDE (integrated development environment)** enables Investe
 2. Click on **“manage code”** on the Programmable Card IDE tile.&#x20;
 3. You will be presented with a list of your cards. Ensure it is enabled by toggling the card on.&#x20;
 4. Click on the card to which you would like to add your code.&#x20;
-5. The IDE or code editor for your card will open up, ready for your to start adding your code.
+5. The IDE or code editor for your card will open up, ready for you to start adding your code.
 
 {% hint style="info" %}
 **Pro-Tip:** The IDE can be slow to load and you might need to refresh the page.
@@ -49,11 +49,11 @@ const beforeTransaction = async (authorization) => {
 **Pro-Tip:** When referring to amounts in the code it is the **cent value** of the transaction. R55 equals 5500 cents.
 {% endhint %}
 
-2. Navigate to the right-hand side of the code editor to the simulator. The simulator allows you to simulate transactions to test out the code on your card before you deploy it.&#x20;
-3. Type in a value of 5100 cents (R51.00), which is above the R50 limit we have set with the code.&#x20;
-4. Click "**Simulate card transaction".**&#x20;
-5. A **simulation.json** file will be created, showing that the transaction failed (**authorizationApproved** will be false) because the amount is over the limit specified.&#x20;
-6. Once you have tested the code and would like to deploy the code to the card click "**Deploy code to card**".&#x20;
+3. Navigate to the right-hand side of the code editor to the simulator. The simulator allows you to simulate transactions to test out the code on your card before you deploy it.&#x20;
+4. Type in a value of 5100 cents (R51.00), which is above the R50 limit we have set with the code.&#x20;
+5. Click "**Simulate card transaction".**&#x20;
+6. A **simulation.json** file will be created, showing that the transaction failed (**authorizationApproved** will be false) because the amount is over the limit specified.&#x20;
+7. Once you have tested the code and would like to deploy the code to the card click "**Deploy code to card**".&#x20;
 
 {% hint style="info" %}
 **Pro-Tip:** The **log.json**  file shows all the logs from the code. You can also log certain outcomes using the **console.log** function.
