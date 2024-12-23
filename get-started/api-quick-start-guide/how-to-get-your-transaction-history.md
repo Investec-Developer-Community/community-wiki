@@ -192,7 +192,7 @@ Follow these steps for 🏦 Private Banking using the appropriate Postman collec
 
 1. Retrieve the accountID from your previous call to get accounts.
 2. Head over to the "Variables" table to insert your accountID. You can also set it under the Params tab on the query page.&#x20;
-3. Navigate to the **Get Account Balance query** under the **Accounts** folder
+3. Navigate to the **Accounts** folder and the **GET Account Balance query** .
 4. Hit **Send** to make a call to the API endpoint.
 
 ```
@@ -227,7 +227,7 @@ Follow these steps for 🏦 Private Banking using the appropriate Postman collec
 Follow these steps for 🏦 Private Banking and 🧰 CIB, using the appropriate Postman collection and API endpoints as above.&#x20;
 
 1. Ensure you have added your accountID to the "Variables" table&#x20;
-2. Navigate to the **GET Account transactions** query and set the dates for which you would like to the transactions by selecting **fromDate** and **toDate** in the **Query params table** and adding the dates.&#x20;
+2. Navigate to the **GET Account transactions** query and set the dates for which you would like to view the transactions by selecting **fromDate** and **toDate** in the **Query params table** and adding the dates.&#x20;
 3. fromDate and toDate can be any  formatted [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) date \[Example of formatted date: 1999-09-09]].
 4. Hit **Send** to make a call to the API endpoint.
 
