@@ -17,8 +17,7 @@
 * [Programmable card quick start guide](get-started/card-quick-start-guide/README.md)
   * [🙌 How to activate your programmable card](get-started/card-quick-start-guide/how-to-activate-your-card-for-programmable-banking.md)
   * [🚀 How to add low-code snippets to your card on Investec Online](get-started/card-quick-start-guide/how-to-add-low-code-snippets-to-your-card-on-investec-online.md)
-  * [🖥️ How to add code to your card using the online IDE](get-started/card-quick-start-guide/how-to-add-code-to-your-card.md)
-  * [💰 How to simulate a transaction using the online IDE](get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)
+  * [🖥️ How to add code to your card and run a simulation using the online IDE](get-started/card-quick-start-guide/how-to-add-code-to-your-card.md)
   * [💳 How to use the programmable card API](get-started/card-quick-start-guide/how-to-use-the-cards-api.md)
 * [Sample apps](get-started/sample-apps.md)
 

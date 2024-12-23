@@ -195,7 +195,7 @@ Environment variables can be defined and saved in the env.json file. These varia
 
 You can differentiate between simulated transactions and production transactions by checking the transaction reference. In the afterTransaction method, you can compare transaction.reference with a specific value (e.g., "simulation") to identify simulated transactions.
 
-Check out [How to simulate a transaction ](../get-started/card-quick-start-guide/how-to-simulate-a-transaction.md)for more details.
+Check out [How to simulate a transaction ](broken-reference)for more details.
 
 </details>
 
