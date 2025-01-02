@@ -1,6 +1,6 @@
 # 🏦 How to get your account, balance, and transaction data
 
-The **Account information API** allows you to access to your account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.&#x20;
+The **Account information API** allows you access to your account and transaction data (read-only access). It can be used to retrieve things like account details, balances and transaction data.&#x20;
 
 ## **Using Postman**&#x20;
 
