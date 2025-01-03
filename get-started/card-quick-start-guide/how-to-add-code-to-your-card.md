@@ -1,7 +1,5 @@
 # 🖥️ How to add code to your card and run a simulation using the online IDE
 
-{% embed url="https://www.loom.com/share/d7f710df6e4e4b00b4cc7967907829ce" %}
-
 ## The Investec Online IDE
 
 The **Investec Online IDE (integrated development environment)** enables Investec Private Banking clients to execute custom functionality on your programmable card.&#x20;
