@@ -16,8 +16,8 @@ It includes collections for the 🏦 Private Banking, 🧰  Corporate Investment
 
 Follow these steps for 🏦 Private Banking and 🧰  CIB, using the appropriate Postman collection and API endpoints as above.&#x20;
 
-1. Navigate to the **Accounts** folder and the **GET Accounts** **query**
-2. Ensure you have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
+1. Ensure  have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
+2. Navigate to the **Accounts** folder and the **GET Accounts** **query**
 3. Hit **Send** to make a call to the account information API endpoint (no additional parameters need to be set).&#x20;
 
 ```
