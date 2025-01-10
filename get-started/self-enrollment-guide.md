@@ -1,6 +1,6 @@
 # Self-enrollment guide
 
-🏦 **Private Banking APIs**
+## 🏦 **Private Banking APIs**
 
 If you are a Private Banking Investec client and would like access to Investec Developer, login to Investec Online and follow the steps below to self-enroll:
 
@@ -16,7 +16,7 @@ If you are a Private Banking Investec client and would like access to Investec D
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-11-05 104839 (1).png" alt=""><figcaption></figcaption></figure>
 
-🧰  **Corporate Investment Banking (CIB) APIs**
+## 🧰  **Corporate Investment Banking (CIB) APIs**
 
 If you are a CIB Investec client and would like access to Investec Developer, login to Investec Online and follow the steps below to self-enroll:
 
