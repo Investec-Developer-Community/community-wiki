@@ -49,7 +49,7 @@ If you’re new to APIs and want to get familiar with using the endpoints, we re
 ### 2. Make a payment
 
 {% hint style="info" %}
-**You can only make programmatic payments to beneficiaries that have been created and paid at least once before from your account with regular online banking. Beneficiary payments are limited to R20 000.00.**
+**You can only make programmatic payments to beneficiaries that have been created and paid at least once before from your account with regular online banking.**
 {% endhint %}
 
 1. Ensure you have [authenticated](how-to-authenticate.md) and pasted in your bearer token into the "Variables" tables.
