@@ -1,6 +1,6 @@
 # 💳 Card | Slack Integration
 
-## Purpose of this tutorial
+Purpose of this tutorial
 
 This tutorial is meant to help you achieve **2 things as quickly as possible** so that you can grasp the absolute basics of Investec’s Programmable Banking feature:
 
@@ -9,13 +9,13 @@ This tutorial is meant to help you achieve **2 things as quickly as possible** s
 
 ## The challenge
 
-### Step 1: Join [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN) on OfferZen Community Slack
+### Step 1: Join [`#rooty`](https://investec-dev-com.slack.com/archives/C065W2RTUFN) on Investec Developer Community Slack
 
 ### Step 2: Open Investec Programmable Banking
 
-Log in to your online banking and select the programmable banking option, at the bottom of your Overview page.
+Log in to your online banking and select the Investec Developer option, under the Manage tab.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-10 at 15.46.42.png" alt="Programmable Banking tile on your Overview page"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Step 1 .png" alt=""><figcaption></figcaption></figure>
 
 ### Step 3: Select the card you want to code
 
@@ -24,7 +24,7 @@ Log in to your online banking and select the programmable banking option, at the
 * You can also use the mobile app to do that by tapping on your account, then on cards, and there you will see a toggle for programmable banking.
 * 💡 Often people forget they added code that blocks transactions, and their card is declined at the shops and they call the call centre - so if your card declines at the shop, remember that you can disable your code from the mobile app.
 
-![](../../.gitbook/assets/tut2)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-12-09 152759.png" alt=""><figcaption></figcaption></figure>
 
 ### Step 4: Setup your `main.js` file
 
@@ -53,7 +53,7 @@ Now replace all the code in your `env.json` file [with this code](https://gitlab
 
 ![](../../.gitbook/assets/tut7)
 
-### Step 7: Celebrate when you see your notification on OfferZen Community Slack \o/
+### Step 7: Celebrate when you see your notification on the Investec Developer Community Slack \o/
 
 ![Example feed :)](<../../.gitbook/assets/Screenshot 2022-04-08 at 09.43.37.png>)
 
