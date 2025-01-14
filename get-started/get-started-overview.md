@@ -9,6 +9,10 @@
 5. Dig further into the Investec Developer documentation [here](https://developer.investec.com/za/home).
 6. Get support if you are struggling by emailing us at **developercommunity@investec.co.za**
 
+**Listen to a podcast on the Investec API and Card (21 min):**
+
+{% file src="../.gitbook/assets/Investec API Specification Podcast.mp4" %}
+
 {% hint style="info" %}
 You need an Investec bank account in order to access and activate the Investec banking API and programmable card to move real money.&#x20;
 
