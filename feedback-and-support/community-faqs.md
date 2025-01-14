@@ -6,9 +6,9 @@ description: Common questions asked in the community
 
 We collated a list of some of the most common questions community members are asking. We'll grow this list with your support :clap:
 
-If you have a question that isn't covered by these FAQs, post it on the [Slack channel](https://offerzen-community.slack.com/archives/C048HKU4P0X) 💬
+If you have a question that isn't covered by these FAQs, post it on the [Slack channel](https://investec-dev-com.slack.com/archives/C05M7DZD0B1) 💬
 
-And if you find the solution to an error or a bug, write it down, post it in the [Slack channel](https://offerzen-community.slack.com/archives/C048HKU4P0X) or record a quick video. Chances are other developers are having the same issue, and you might save them a lot of time.
+And if you find the solution to an error or a bug, write it down, post it in the [Slack channel](https://investec-dev-com.slack.com/archives/C05MQQDUJ3E) or record a quick video. Chances are other developers are having the same issue, and you might save them a lot of time.
 
 ## 🖥️ Investec API FAQs
 
