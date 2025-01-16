@@ -1,7 +1,5 @@
 # 💸 How to make transfers and payments
 
-{% embed url="https://www.loom.com/share/733e3023bc8844e186e1752134570527" %}
-
 The **Account information API** also allows you to perform actions against their account programmatically (not just read-only). This includes transferring money between your accounts and paying money to beneficiaries. &#x20;
 
 {% hint style="info" %}

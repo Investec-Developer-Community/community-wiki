@@ -1,7 +1,5 @@
 # 🔑 How to create your API keys
 
-{% embed url="https://www.loom.com/share/28eda68190434b8fb96285f530777987" %}
-
 {% hint style="info" %}
 Before you begin, ensure you are enrolled for Investec Developer on your Private Banking or CIB account (see [Investec Developer self enrollment guide](https://investec.gitbook.io/programmable-banking-community-wiki/get-started/self-enrollment-guide)).&#x20;
 {% endhint %}

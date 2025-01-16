@@ -1,7 +1,5 @@
 # 👤 How to authenticate against the Investec API
 
-{% embed url="https://www.loom.com/share/4c0281f1621a4fbb8886547bb38aa4ee" %}
-
 ## **Authentication**&#x20;
 
 Before you go ahead and query the Investec banking API for things like account and transaction data, you will first need to authenticate.&#x20;
