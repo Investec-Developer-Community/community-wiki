@@ -1,5 +1,7 @@
 # 🏦 How to get your account, balance, and transaction data
 
+{% embed url="https://www.youtube.com/watch?index=2&list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl&v=GnHwWQXmCzs" %}
+
 The **Account information API** allows you access to your account and transaction data. It can be used to retrieve things like account details and balances.&#x20;
 
 ## **Using Postman**&#x20;

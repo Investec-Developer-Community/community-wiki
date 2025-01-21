@@ -1,5 +1,7 @@
 # 👤 How to authenticate against the Investec API
 
+{% embed url="https://www.youtube.com/watch?index=3&list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl&v=HYJuvWH5akc" %}
+
 ## **Authentication**&#x20;
 
 Before you go ahead and query the Investec banking API for things like account and transaction data, you will first need to authenticate.&#x20;

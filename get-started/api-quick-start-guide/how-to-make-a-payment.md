@@ -1,5 +1,7 @@
 # 💸 How to make transfers and payments
 
+{% embed url="https://www.youtube.com/watch?index=1&list=PLdtUNQ2k27WiAdJFzLeF-a7weue5U12Kl&v=AA-tiVE8JUA" %}
+
 The **Account information API** also allows you to perform actions against their account programmatically (not just read-only). This includes transferring money between your accounts and paying money to beneficiaries. &#x20;
 
 {% hint style="info" %}
