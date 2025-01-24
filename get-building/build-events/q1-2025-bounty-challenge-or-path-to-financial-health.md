@@ -81,7 +81,7 @@ Based on Lauren Haynes' financial wellness sessions, your solution should addres
 
 <figure><img src="../../.gitbook/assets/Screenshot 2024-04-19 at 08.39.52.png" alt="" width="354"><figcaption><p>Possable Swag To Be Won :;)</p></figcaption></figure>
 
-* **Standout Submissions:** The best wrappers will be showcased (_with kudos, of course!_) in our open-source GitHub Organisation repo.&#x20;
+* **Standout Submissions:** The best solutions will be showcased (_with kudos, of course!_) in our open-source GitHub Organisation repo.&#x20;
 
 ***
 
@@ -103,14 +103,14 @@ Our community champions are ready to help in the [Slack channel](https://investe
 {% step %}
 **Submit Your Work:**
 
-Share your wrapper via a public GitHub repository and <kbd>submit the link</kbd> through our form by the deadline.&#x20;
+Share your solution via a public GitHub repository and <kbd>submit the link</kbd> through our form by the deadline.&#x20;
 {% endstep %}
 {% endstepper %}
 
 ## 📋 Submission Guidelines&#x20;
 
 * **GitHub Repositories:** Share your code via a public GitHub repository and submit the link through our form.&#x20;
-* **Documentation**: Include a README with an explanation of your wrapper, how it works, and installation instructions.&#x20;
+* **Documentation**: Include a README with an explanation of your solution, how it works, and installation instructions.&#x20;
 * **Knowledge Sharing**: If you discover something cool, add it to a ./knowledge file with your submission to benefit the community.&#x20;
 * **Licensing**: All submissions should be open-sourced under the MIT License.&#x20;
 
@@ -118,7 +118,7 @@ Be creative and have fun with it!&#x20;
 
 ## 🤔 FAQs:&#x20;
 
-* **Multiple Submissions:** Feeling festive, feel free to submit multiple solutions
+* **Multiple Submissions:** Feeling productive, feel free to submit multiple solutions
 * **Team Participation:** Go solo or team up – it's your choice.
 * **Existing Projects:** You can refine and submit projects you've previously worked on.
 * **Skill Level:** All developers are welcome, and we're here to help you succeed.
