@@ -16,19 +16,17 @@ In 2023, the partnership between Investec and OfferZen concluded, and in October
 
 ## Purpose of the Community:
 
-Making programmable banking a reality for South African developers and businesses alike.
-
 Writing code alone is not fun, building something new is even harder! Discovering and then refining those use cases and code snippets (don’t kid yourself, we all use code snippets!) is the other part, which is rarely effective when done in isolation.
 
 Conversations with other passionate developers reveal ideas we never knew we had. Friendly debates help us clarify our views. A casual comment can uncover new ways for us to think and build. Interacting with diverse people radically expands our vision and insights into a problem.
 
 Still, most developers work in isolation, without a collaborative coding environment. Large peer review sessions exist mostly within larger institutions. Friends and family mean well but rarely provide useful feedback.
 
-Our core focus as a community is to support each other to unlock the potential of programmable banking for everyone. Working together as a tribe of South African developers who want to solve business problems using programmable banking.
+**Our core focus as a community is to support each other to unlock the potential of programmable banking for everyone.** Working together as a tribe of South African developers who want to solve individual and business problems using Programmable Banking.
 
 ## Core Principles and Values:
 
-The Programmable Banking Community’s overall principles are guided and influenced by [OfferZens](https://docs.google.com/presentation/d/e/2PACX-1vRUOWsm5aCfIi_m26gNK0V3UP8Ua1j2aYR-_DT_a0TLmY-6iUmRAb5ArPVU68lhhhJ_mPxkc2HsjcBV/pub?start=true\&loop=false\&delayms=3000)’ and [Investec’s](https://www.investec.com/en_gb/welcome-to-investec/about-us.html) values and adapted and moulded by the developers in the Community.
+Our overall principles are guided and influenced by Investec’s values and adapted and moulded by the developers in the community.
 
 We believe that the following values help create and sustain thriving developer communities.
 
@@ -59,7 +57,3 @@ Contributing to existing projects, even in a small way, e.g. feedback or ideas, 
 **7. We ALWAYS have fun building together:**
 
 While we’re working on serious things, we should always have fun creating cool things together.
-
-{% embed url="https://docs.google.com/presentation/d/1KLX02NB-dK6qAObzn4daicRFlRt6JiZTcqTDPBwzvxo/edit?usp=sharing" %}
-View the [Google slides here](https://docs.google.com/presentation/d/1KLX02NB-dK6qAObzn4daicRFlRt6JiZTcqTDPBwzvxo/edit?usp=sharing).
-{% endembed %}
