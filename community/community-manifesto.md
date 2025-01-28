@@ -1,21 +1,18 @@
-# Community Manifesto
+# Community manifesto
 
 ## How did we get here:
 
-In 2017, [we announced Root:](https://www.offerzen.com/blog/building-a-programmable-bank-account-for-developers-part-2) a project to build a programmable bank account for developers. Our goal was to eliminate the barriers in FinTech and enable the developer community to find new and innovative ways to control their money.
+In early 2019, we partnered with [OfferZen](https://www.offerzen.com/), a leading tech talent marketplace, to explore how we could contribute to and support the tech sector. Like us, OfferZen shares a strong belief that [software can fundamentally accelerate South Africa’s economic growth](https://www.offerzen.com/blog/rise-of-the-programmers-why-power-is-shifting-to-developers) and wants to help developers in South Africa to achieve this.&#x20;
 
-There weren’t many banks that understood the power of programmable money, and it’s still hard to find them. Our original strategy was to build a completely new bank. As it turns out, building a bank is hard and expensive (no jokes).
+Over the following months, we worked closely to identify ways to remove barriers in FinTech and enable developers to take control of their money through innovative solutions. This collaboration laid the foundation to start making [Programmable Banking a reality for South African developers.](https://www.youtube.com/watch?v=PcU0aT5ckDM)
 
-In early 2019, Investec approached the OfferZen team to talk about their mission to invest in the tech sector. Like us, they believe strongly that [software can fundamentally accelerate South Africa’s economic growth](https://www.offerzen.com/blog/rise-of-the-programmers-why-power-is-shifting-to-developers), and want to help developers in South Africa to achieve this. Over the following months, we worked together to figure out how we could [partner to make programmable banking a reality](https://www.youtube.com/watch?v=PcU0aT5ckDM\&ab\_channel=OfferZen) for South African developers.
+The journey gained momentum in December 2019, when we launched the Programmable Banking Beta program at OfferZen’s MERGE conference. This marked the start of building a developer community, centered around gathering product feedback and fostering collaboration within the tech sector.
 
-In December 2019, Investec launched the programmable banking beta at OfferZen’s MERGE conference, and we started to build the programmable banking community to get feedback and support from the tech community.
+On 15 March 2022, [Programmable Banking was officially launched. ](https://www.investec.com/en_za/welcome-to-investec/press/investec-launch-programmable-banking.html)This milestone would not have been possible without the invaluable input, contributions, and support of the developer community. Co-creating with our customers allowed us to build a product that developers love.
 
-{% hint style="info" %}
-Investec's Programmable Banking went public to the market on **15 March 2022**. \
-Read the [press release here](https://www.investec.com/en\_za/welcome-to-investec/press/investec-launch-programmable-banking.html).
-{% endhint %}
+In 2023, the partnership between Investec and OfferZen concluded, and in October 2023 we saw the [launch of the Investec Developer brand.](https://www.investec.com/en_za/welcome-to-investec/press/investec-is-taking-api-banking-mainstream.html) Today, the Investec Developer community continues to thrive, with over 2,000 members playing a key role in shaping the Investec developer experience as we look toward the future of banking.
 
-![](../.gitbook/assets/external)
+<figure><img src="../.gitbook/assets/Community How did we get here timeline.png" alt=""><figcaption></figcaption></figure>
 
 ## Purpose of the Community:
 
@@ -29,11 +26,9 @@ Still, most developers work in isolation, without a collaborative coding environ
 
 Our core focus as a community is to support each other to unlock the potential of programmable banking for everyone. Working together as a tribe of South African developers who want to solve business problems using programmable banking.
 
-And we do this in a few simple ways.
-
 ## Core Principles and Values:
 
-The Programmable Banking Community’s overall principles are guided and influenced by [OfferZens](https://docs.google.com/presentation/d/e/2PACX-1vRUOWsm5aCfIi\_m26gNK0V3UP8Ua1j2aYR-\_DT\_a0TLmY-6iUmRAb5ArPVU68lhhhJ\_mPxkc2HsjcBV/pub?start=true\&loop=false\&delayms=3000)’ and [Investec’s](https://www.investec.com/en\_gb/welcome-to-investec/about-us.html) values and adapted and moulded by the developers in the Community.
+The Programmable Banking Community’s overall principles are guided and influenced by [OfferZens](https://docs.google.com/presentation/d/e/2PACX-1vRUOWsm5aCfIi_m26gNK0V3UP8Ua1j2aYR-_DT_a0TLmY-6iUmRAb5ArPVU68lhhhJ_mPxkc2HsjcBV/pub?start=true\&loop=false\&delayms=3000)’ and [Investec’s](https://www.investec.com/en_gb/welcome-to-investec/about-us.html) values and adapted and moulded by the developers in the Community.
 
 We believe that the following values help create and sustain thriving developer communities.
 
