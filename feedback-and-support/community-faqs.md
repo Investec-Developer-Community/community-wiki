@@ -127,7 +127,7 @@ Once you have created a beneficiary, make at least one payment to that beneficia
 
 <summary>Is there a payment limit on the Beneficiary Payments API?</summary>
 
-The payment limit via the API is currently R20 000.00. You must have made a payment to the beneficiary via [Investec Online](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form) before making a payment to a beneficiary via the API.
+No, limits are set up as per online banking. You must have made a payment to the beneficiary via [Investec Online](https://login.secure.investec.com/wpaas/usrroot-wpaas/login/form) before making a payment to a beneficiary via the API.
 
 Check out [How to make a payment](../get-started/api-quick-start-guide/how-to-make-a-payment.md) for more details.
 
