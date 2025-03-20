@@ -4,7 +4,7 @@ description: Everything you need to know about participating in community
 
 # Get involved
 
-## How do I get startedy?
+## How do I get started?
 
 * [x] Join the community by signing up [**here**](https://forms.office.com/pages/responsepage.aspx?id=vBFqbZpG30ilSNPzU6wb6KOYGqI-gNhHpwX37PVCtN5URUtTTVhYTTY0NzlRQVFMTktBSllaVVpJTi4u\&route=shorturl) :writing\_hand:
 * [x] Once you've filled in the form, we'll send you an invitation to join the [**Slack Community**](https://investec-dev-com.slack.com/archives/C05M7DZD0B1)
@@ -28,7 +28,7 @@ Our community champs enable and support others to grow and learn and are integra
 
 Check out a few things we give to awesome community members who live [**our core principles and values**](community-manifesto.md#core-principles-and-values)**.** 👇
 
-<div data-full-width="true"><figure><img src="../.gitbook/assets/swag_2025.png" alt=""><figcaption><p>A glimpse of the current Programmable Banking community swag.... more to come.</p></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../.gitbook/assets/idc_swag_2025.png" alt="" width="563"><figcaption><p>A glimpse of the some Investec Developer community swag.... more to come...✨</p></figcaption></figure></div>
 
 ## &#x20;How we think about co-creation in the community
 
