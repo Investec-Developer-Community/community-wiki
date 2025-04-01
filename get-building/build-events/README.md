@@ -8,9 +8,13 @@ To chat with other community members about the things you have been building - w
 
 ### Open challenges
 
-* [Q1 2025 Bounty Challenge ](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events/q1-2025-bounty-challenge-or-path-to-financial-health)| Path to Financial Health
+* \[Watch this space...]
 
 ### Passed events and challenges
+
+#### 2025
+
+* [Q1 2025 Bounty Challenge ](https://investec.gitbook.io/programmable-banking-community-wiki/get-building/build-events/q1-2025-bounty-challenge-or-path-to-financial-health)| Path to Financial Health
 
 #### 2024
 

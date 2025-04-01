@@ -31,7 +31,7 @@
   * [🚗 Card | How to create a DIY petrol card](get-building/build-something-simple/card-or-how-to-create-a-diy-petrol-card.md)
   * [🎯 API | No-code Budget Expense App](get-building/build-something-simple/api-or-no-code-budget-expense-app.md)
 * [Build challenges & hackathons](get-building/build-events/README.md)
-  * [🎯 Q1 2025 Bounty Challenge | Path to Financial Health](get-building/build-events/q1-2025-bounty-challenge-or-path-to-financial-health.md)
+  * [🎯 \[Closed\] Q1 2025 Bounty Challenge | Path to Financial Health](get-building/build-events/q1-2025-bounty-challenge-or-path-to-financial-health.md)
   * [🎁 \[CLOSED\] Q4 2024 Bounty Challenge | Festive API Wrappers](get-building/build-events/q4-2024-bounty-challenge-festive-api-wrappers.md)
   * [🚂 \[CLOSED\] Q3 2024 Bounty Challenge | Everyday Solutions](get-building/build-events/q3-2024-bounty-challenge-every-day-solutions.md)
   * [☄️ \[CLOSED\] Q2 2024 Bounty Challenge | Card Code Snippets](get-building/build-events/q2-2024-bounty-challenge-or-card-code-snippets.md)

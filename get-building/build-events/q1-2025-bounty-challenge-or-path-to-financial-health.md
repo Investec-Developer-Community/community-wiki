@@ -1,4 +1,19 @@
-# 🎯 Q1 2025 Bounty Challenge | Path to Financial Health
+# 🎯 \[Closed] Q1 2025 Bounty Challenge | Path to Financial Health
+
+### \[UPDATED 01/04/25] This bounty challenge is closed. We had plenty of awesome submissions - check them out 👀.
+
+{% hint style="danger" %}
+These builds are created with ❤️ by our community. They are open for use, contributions, and sharing. Please note, these repos are **not officially supported by Investec**. **Exercise caution** when engaging with community-driven projects.
+{% endhint %}
+
+| Build Name                 | Coder                                                                | Description                                                               | Link to Repo                                                                               |
+| -------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Investa\_Transact Analysis | [Johannes Mogashoa](https://github.com/JohannesMogashoa)             | Provides a summary of transactions, highlighting types and amounts.       | [GitHub Repository](https://github.com/JohannesMogashoa/investa-save)                      |
+| Financial Budget Monitor   | [Thandekile Vundhla](https://github.com/thandhla)                    | Web application for tracking and managing personal finances.              | [GitHub Repository](https://github.com/thandhla/Financial-Budget-Monitor)                  |
+| Nest Bundle                | [Alec](https://github.com/alecshelembe) & Team Zero Point One Four   | A banking product designed to enhance financial operations.               | [GitHub Repository](https://github.com/alecshelembe/investec-sandbox-app)                  |
+| Investec Senior Tech Hub   | [Innocent Jackson](https://github.com/STHB2025)                      | Financial wellness platform for seniors with accessible features.         | [Replit Repository](https://replit.com/@innoemailbox/SeniorFinanceGuide#drizzle.config.ts) |
+| Budget Buddy Management    | [Tatenda Moyana](https://github.com/mazhape/budget-buddy-management) | Financial wellness app for budget management and spending tracking.       | [GitHub Repository](https://github.com/mazhape/budget-buddy-management)                    |
+| Fintrackr                  | [Happy Mahlangu](https://github.com/HappyDevs1)                      | AI-powered money tracker predicting future balance and spending patterns. | [GitHub Repository](https://github.com/HappyDevs1/fintrackr)                               |
 
 ### 📢 Overview
 
